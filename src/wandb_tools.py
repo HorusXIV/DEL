@@ -67,10 +67,18 @@ class WandbRuns:
             return f"{self.entity}/{self.project}"
         return self.project
 
-    def list_runs(self, filters: Mapping[str, Any] | None = None, order: str = "-created_at"):
-        return self.api.runs(path=self._project_path(), filters=dict(filters) if filters else None, order=order)
+    def list_runs(
+        self, filters: Mapping[str, Any] | None = None, order: str = "-created_at"
+    ):
+        return self.api.runs(
+            path=self._project_path(),
+            filters=dict(filters) if filters else None,
+            order=order,
+        )
 
-    def runs_overview(self, filters: Mapping[str, Any] | None = None, top_k: int | None = 20) -> pd.DataFrame:
+    def runs_overview(
+        self, filters: Mapping[str, Any] | None = None, top_k: int | None = 20
+    ) -> pd.DataFrame:
         rows: list[dict[str, Any]] = []
         runs = self.list_runs(filters=filters)
 
@@ -91,7 +99,9 @@ class WandbRuns:
 
         return pd.DataFrame(rows)
 
-    def history(self, run_path: str, keys: list[str], samples: int = 1000) -> pd.DataFrame:
+    def history(
+        self, run_path: str, keys: list[str], samples: int = 1000
+    ) -> pd.DataFrame:
         run = self.api.run(run_path)
         history_df = run.history(keys=keys, samples=samples, pandas=True)
         return history_df.dropna(how="all")
@@ -108,14 +118,18 @@ class WandbRuns:
         frames: list[pd.DataFrame] = []
 
         for run_path in run_paths:
-            df = self.history(run_path=run_path, keys=[step_key, metric_key], samples=samples)
+            df = self.history(
+                run_path=run_path, keys=[step_key, metric_key], samples=samples
+            )
             if step_key not in df.columns or metric_key not in df.columns:
                 continue
 
             curve = df[[step_key, metric_key]].copy()
             curve["run"] = run_path.split("/")[-1]
             if smooth > 1:
-                curve[metric_key] = curve[metric_key].rolling(window=smooth, min_periods=1).mean()
+                curve[metric_key] = (
+                    curve[metric_key].rolling(window=smooth, min_periods=1).mean()
+                )
             frames.append(curve)
 
         if not frames:

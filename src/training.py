@@ -91,7 +91,9 @@ def _rebuild_loader_from_base(
         timeout=base_loader.timeout,
         worker_init_fn=base_loader.worker_init_fn,
         multiprocessing_context=base_loader.multiprocessing_context,
-        prefetch_factor=base_loader.prefetch_factor if base_loader.num_workers > 0 else None,
+        prefetch_factor=base_loader.prefetch_factor
+        if base_loader.num_workers > 0
+        else None,
         persistent_workers=base_loader.persistent_workers,
         pin_memory_device=base_loader.pin_memory_device,
         generator=generator,
@@ -142,6 +144,7 @@ class Trainer:
     Returns:
     - A dictionary containing the training history, run configuration, fit configuration, and device information.
     """
+
     def __init__(
         self,
         model,
@@ -173,7 +176,9 @@ class Trainer:
             single_batch_repeats=single_batch_repeats,
         )
 
-    def evaluate(self, loader, batches_per_epoch: int | None = None) -> dict[str, float]:
+    def evaluate(
+        self, loader, batches_per_epoch: int | None = None
+    ) -> dict[str, float]:
         return self._epoch_pass(
             loader=loader,
             optimizer=None,
@@ -182,7 +187,9 @@ class Trainer:
             single_batch_repeats=1,
         )
 
-    def fit(self, train_loader, val_loader, config: FitConfig) -> dict[str, list[float]]:
+    def fit(
+        self, train_loader, val_loader, config: FitConfig
+    ) -> dict[str, list[float]]:
         history = defaultdict(list)
 
         for epoch in range(1, config.epochs + 1):
@@ -206,7 +213,10 @@ class Trainer:
                 self.logger.log_metrics(
                     {
                         "epoch": epoch,
-                        **{f"train/{key}": value for key, value in train_metrics.items()},
+                        **{
+                            f"train/{key}": value
+                            for key, value in train_metrics.items()
+                        },
                         **{f"val/{key}": value for key, value in val_metrics.items()},
                     },
                     step=epoch,
@@ -238,7 +248,9 @@ class Trainer:
         else:
             batches = loader
 
-        max_batches = batches_per_epoch if batches_per_epoch is not None else float("inf")
+        max_batches = (
+            batches_per_epoch if batches_per_epoch is not None else float("inf")
+        )
         batch_count = 0
 
         context = torch.enable_grad() if is_train else torch.no_grad()
@@ -286,7 +298,7 @@ def run_baseline(
 
     if train_loader is None:
         raise ValueError("train_loader must be provided when val_loader is provided.")
-    
+
     train_loader, val_loader = _split_train_loader(
         train_loader=train_loader,
         val_fraction=config.val_fraction,
@@ -310,14 +322,13 @@ def run_baseline(
         run_name=config.run_name,
         config={
             **asdict(config),
-            **asdict(active_fit_config),
             "optimizer": "SGD",
             "momentum": 0.0,
             "weight_decay": 0.0,
             "model": "BaselineCNN",
         },
         enabled=config.use_wandb,
-        tags=config.tags
+        tags=config.tags,
     )
     logger.watch_model(model)
 
