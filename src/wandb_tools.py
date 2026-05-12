@@ -1,18 +1,18 @@
 from __future__ import annotations
 
-import matplotlib.pyplot as plt
-import pandas as pd
-import seaborn as sns
-import wandb
-
-from collections.abc import Mapping
 import os
 from pathlib import Path
 from typing import Any
+from collections.abc import Mapping
 
 MPL_CONFIG_DIR = Path("/tmp/matplotlib")
 MPL_CONFIG_DIR.mkdir(parents=True, exist_ok=True)
 os.environ.setdefault("MPLCONFIGDIR", str(MPL_CONFIG_DIR))
+
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+import wandb
 
 
 class WandbLogger:

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from collections import defaultdict
+from collections.abc import Callable
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
@@ -290,65 +291,93 @@ class Trainer:
         return metrics
 
 
-def run_baseline(
+def run_model(
+    model_factory: Callable[[int], nn.Module],
+    model_name: str,
     config: RunConfig,
     fit_config: FitConfig | None = None,
     train_loader: DataLoader | None = None,
+    val_loader: DataLoader | None = None,
+    optimizer_factory: Callable[[Any], optim.Optimizer] | None = None,
+    extra_wandb_config: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
-
     if train_loader is None:
-        raise ValueError("train_loader must be provided when val_loader is provided.")
+        raise ValueError("train_loader must be provided.")
 
-    train_loader, val_loader = _split_train_loader(
-        train_loader=train_loader,
-        val_fraction=config.val_fraction,
-        seed=config.random_seed,
-    )
+    if val_loader is None:
+        train_loader, val_loader = _split_train_loader(
+            train_loader=train_loader,
+            val_fraction=config.val_fraction,
+            seed=config.random_seed,
+        )
 
-    device = config.device
-    model = BaselineCNN(num_classes=10).to(device)
+    device = config.device or ("cuda" if torch.cuda.is_available() else "cpu")
+    model = model_factory(num_classes=10).to(device)
     criterion = nn.CrossEntropyLoss()
-    optimizer = optim.SGD(
-        model.parameters(),
-        lr=config.learning_rate,
-        momentum=0.0,
-        weight_decay=0.0,
-    )
+    if optimizer_factory is None:
+        optimizer = optim.SGD(
+            model.parameters(),
+            lr=config.learning_rate,
+            momentum=0.0,
+            weight_decay=0.0,
+        )
+    else:
+        optimizer = optimizer_factory(model.parameters())
 
-    active_fit_config = fit_config
+    active_fit_config = fit_config or FitConfig(epochs=config.epochs)
+    logger_config = {
+        **asdict(config),
+        "optimizer": optimizer.__class__.__name__,
+        "model": model_name,
+    }
+    if isinstance(optimizer, optim.SGD):
+        logger_config.update(
+            {
+                "momentum": optimizer.defaults.get("momentum", 0.0),
+                "weight_decay": optimizer.defaults.get("weight_decay", 0.0),
+            }
+        )
+    if isinstance(optimizer, optim.Adam):
+        logger_config.update(
+            {
+                "betas": list(optimizer.defaults.get("betas", (0.9, 0.999))),
+                "eps": float(optimizer.defaults.get("eps", 1e-8)),
+                "weight_decay": optimizer.defaults.get("weight_decay", 0.0),
+            }
+        )
+    if extra_wandb_config:
+        logger_config.update(extra_wandb_config)
+
     logger = WandbLogger(
         project=config.wandb_project,
         entity=config.wandb_entity,
         run_name=config.run_name,
-        config={
-            **asdict(config),
-            "optimizer": "SGD",
-            "momentum": 0.0,
-            "weight_decay": 0.0,
-            "model": "BaselineCNN",
-        },
+        config=logger_config,
         enabled=config.use_wandb,
         tags=config.tags,
     )
-    logger.watch_model(model)
+    try:
+        logger.watch_model(model)
 
-    trainer = Trainer(
-        model=model,
-        criterion=criterion,
-        optimizer=optimizer,
-        device=device,
-        logger=logger,
-        num_classes=10,
-    )
-    history = trainer.fit(
-        train_loader=train_loader,
-        val_loader=val_loader,
-        config=active_fit_config,
-    )
-    logger.finish()
+        trainer = Trainer(
+            model=model,
+            criterion=criterion,
+            optimizer=optimizer,
+            device=device,
+            logger=logger,
+            num_classes=10,
+        )
+        history = trainer.fit(
+            train_loader=train_loader,
+            val_loader=val_loader,
+            config=active_fit_config,
+        )
+    finally:
+        logger.finish()
 
     return {
         "model": model,
+        "model_name": model_name,
         "history": history,
         "run_config": config,
         "fit_config": active_fit_config,
@@ -356,3 +385,19 @@ def run_baseline(
         "train_loader": train_loader,
         "val_loader": val_loader,
     }
+
+
+def run_baseline(
+    config: RunConfig,
+    fit_config: FitConfig | None = None,
+    train_loader: DataLoader | None = None,
+    val_loader: DataLoader | None = None,
+) -> dict[str, Any]:
+    return run_model(
+        model_factory=BaselineCNN,
+        model_name="BaselineCNN",
+        config=config,
+        fit_config=fit_config,
+        train_loader=train_loader,
+        val_loader=val_loader,
+    )
