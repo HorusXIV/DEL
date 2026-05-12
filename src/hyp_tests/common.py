@@ -2,7 +2,9 @@ from __future__ import annotations
 
 import json
 import random
+from dataclasses import asdict, dataclass
 from pathlib import Path
+from typing import Any
 
 import numpy as np
 import pandas as pd
@@ -11,11 +13,55 @@ from scipy.stats import ttest_rel
 from torch.utils.data import DataLoader, Subset
 from torchvision import datasets, transforms
 
+from src.training import RunConfig
+
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 RESULTS_DIR = Path(__file__).resolve().parent / "results"
 BASELINE_RUNS_CSV_PATH = RESULTS_DIR / "baseline_runs.csv"
 BASELINE_SUMMARY_JSON_PATH = RESULTS_DIR / "baseline_summary.json"
+METRIC_COLUMNS = [
+    "train_loss",
+    "train_accuracy",
+    "train_macro_precision",
+    "train_macro_recall",
+    "train_macro_f1",
+    "val_loss",
+    "val_accuracy",
+    "val_macro_precision",
+    "val_macro_recall",
+    "val_macro_f1",
+]
+
+
+@dataclass(frozen=True)
+class SharedExperimentSettings:
+    epochs: int = 30
+    repeats: int = 5
+    learning_rate: float = 5e-2
+    batch_size: int = 128
+    val_fraction: float = 0.1
+    base_seed: int = 42
+    data_dir: str = "data"
+    wandb_project: str = "DEL"
+    wandb_entity: str | None = (
+        "lukas-breiter-fachhochschule-nordwestschweiz-fhnw"
+    )
+    num_workers: int = 4
+    use_wandb: bool = True
+
+
+def get_shared_settings() -> SharedExperimentSettings:
+    return SharedExperimentSettings()
+
+
+def iter_repeat_seeds(
+    settings: SharedExperimentSettings,
+) -> list[tuple[int, int]]:
+    return [
+        (repeat_idx, settings.base_seed + repeat_idx - 1)
+        for repeat_idx in range(1, settings.repeats + 1)
+    ]
 
 
 def resolve_data_dir(data_dir: str) -> Path:
@@ -176,6 +222,106 @@ def build_augmented_train_val_loaders(
 def final_metrics(result: dict) -> dict[str, float]:
     history = result["history"]
     return {key: values[-1] for key, values in history.items()}
+
+
+def build_standard_run_config(
+    settings: SharedExperimentSettings,
+    *,
+    seed: int,
+    run_name: str,
+    device: str,
+    tags: list[str],
+) -> RunConfig:
+    return RunConfig(
+        learning_rate=settings.learning_rate,
+        batch_size=settings.batch_size,
+        epochs=settings.epochs,
+        data_dir=str(resolve_data_dir(settings.data_dir)),
+        val_fraction=settings.val_fraction,
+        random_seed=seed,
+        num_workers=settings.num_workers,
+        pin_memory=torch.cuda.is_available(),
+        use_wandb=settings.use_wandb,
+        wandb_project=settings.wandb_project,
+        wandb_entity=settings.wandb_entity,
+        run_name=run_name,
+        device=device,
+        tags=tags,
+    )
+
+
+def build_normalization_summary(
+    mean: torch.Tensor | list[float],
+    std: torch.Tensor | list[float],
+    **extra: Any,
+) -> dict[str, Any]:
+    if isinstance(mean, torch.Tensor):
+        mean_values = [float(value) for value in mean.tolist()]
+    else:
+        mean_values = [float(value) for value in mean]
+
+    if isinstance(std, torch.Tensor):
+        std_values = [float(value) for value in std.tolist()]
+    else:
+        std_values = [float(value) for value in std]
+
+    payload: dict[str, list[float] | float | int | bool] = {
+        "mean": mean_values,
+        "std": std_values,
+    }
+    payload.update(extra)
+    return payload
+
+
+def build_experiment_config(
+    settings: SharedExperimentSettings,
+    *,
+    device: str,
+    experiment_name: str,
+    **extra: Any,
+) -> dict[str, Any]:
+    config = {
+        **asdict(settings),
+        "data_dir": str(resolve_data_dir(settings.data_dir)),
+        "device": device,
+        "experiment_name": experiment_name,
+    }
+    config.update(extra)
+    return config
+
+
+def build_runs_dataframe(
+    run_records: list[dict[str, float | int | str]],
+) -> pd.DataFrame:
+    return pd.DataFrame(run_records).sort_values(
+        ["repeat_idx", "model_variant"]
+    ).reset_index(drop=True)
+
+
+def summarize_runs(runs_df: pd.DataFrame) -> pd.DataFrame:
+    return runs_df.groupby("model_variant")[METRIC_COLUMNS].agg(["mean", "std"]).round(4)
+
+
+def save_experiment_outputs(
+    runs_df: pd.DataFrame,
+    *,
+    runs_csv_path: Path,
+    summary_json_path: Path,
+    summary_payload: dict,
+) -> None:
+    grouped_summary = summarize_runs(runs_df)
+
+    runs_df.to_csv(runs_csv_path, index=False)
+    summary_json_path.write_text(json.dumps(summary_payload, indent=2), encoding="utf-8")
+
+    print("Run-Metriken pro Wiederholung:")
+    print(runs_df.to_string(index=False))
+    print()
+    print("Aggregierte Kennzahlen pro Modell:")
+    print(grouped_summary.to_string())
+    print()
+    print(f"CSV gespeichert unter: {runs_csv_path}")
+    print(f"JSON gespeichert unter: {summary_json_path}")
 
 
 def load_shared_baseline() -> tuple[pd.DataFrame, dict]:
