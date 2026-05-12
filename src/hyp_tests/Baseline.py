@@ -1,10 +1,8 @@
 from __future__ import annotations
 
-import json
 import sys
 from pathlib import Path
 
-import pandas as pd
 import torch
 
 
@@ -105,7 +103,8 @@ def main() -> None:
 
     runs_df = build_runs_dataframe(run_records)
     summary_metrics = {
-        f"baseline_{metric}_mean": float(runs_df[metric].mean()) for metric in METRIC_COLUMNS
+        f"baseline_{metric}_mean": float(runs_df[metric].mean())
+        for metric in METRIC_COLUMNS
     }
     summary_metrics.update(
         {
