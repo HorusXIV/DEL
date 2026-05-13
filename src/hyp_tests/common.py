@@ -31,6 +31,11 @@ METRIC_COLUMNS = [
     "val_macro_precision",
     "val_macro_recall",
     "val_macro_f1",
+    "test_loss",
+    "test_accuracy",
+    "test_macro_precision",
+    "test_macro_recall",
+    "test_macro_f1",
 ]
 
 
@@ -142,6 +147,37 @@ def build_train_loader(
     return train_loader, mean, std
 
 
+def build_test_loader(
+    data_dir: Path,
+    batch_size: int,
+    num_workers: int,
+    pin_memory: bool,
+    mean: torch.Tensor | list[float],
+    std: torch.Tensor | list[float],
+) -> DataLoader:
+    mean_values = mean.tolist() if isinstance(mean, torch.Tensor) else mean
+    std_values = std.tolist() if isinstance(std, torch.Tensor) else std
+    transform = transforms.Compose(
+        [
+            transforms.ToTensor(),
+            transforms.Normalize(mean=mean_values, std=std_values),
+        ]
+    )
+    test_dataset = datasets.SVHN(
+        root=str(data_dir),
+        split="test",
+        download=True,
+        transform=transform,
+    )
+    return DataLoader(
+        test_dataset,
+        batch_size=batch_size,
+        shuffle=False,
+        num_workers=num_workers,
+        pin_memory=pin_memory,
+    )
+
+
 def split_indices(
     num_samples: int,
     val_fraction: float,
@@ -221,7 +257,11 @@ def build_augmented_train_val_loaders(
 
 def final_metrics(result: dict) -> dict[str, float]:
     history = result["history"]
-    return {key: values[-1] for key, values in history.items()}
+    metrics = {key: values[-1] for key, values in history.items()}
+    test_metrics = result.get("test_metrics")
+    if test_metrics is not None:
+        metrics.update({f"test_{key}": value for key, value in test_metrics.items()})
+    return metrics
 
 
 def build_standard_run_config(
@@ -343,9 +383,10 @@ def build_paired_summary(
     reference_label: str = "baseline",
     variant_label: str,
     alpha: float,
+    metric_key: str = "test_macro_f1",
 ) -> dict[str, float | int | bool]:
     paired = (
-        runs_df.pivot(index="repeat_idx", columns="model_variant", values="val_macro_f1")
+        runs_df.pivot(index="repeat_idx", columns="model_variant", values=metric_key)
         .sort_index()
         .dropna()
     )
@@ -358,16 +399,16 @@ def build_paired_summary(
     return {
         "repeats": int(len(paired)),
         "alpha": float(alpha),
-        f"{reference_label}_mean_val_macro_f1": float(paired[reference_label].mean()),
-        f"{reference_label}_std_val_macro_f1": float(
+        f"{reference_label}_mean_{metric_key}": float(paired[reference_label].mean()),
+        f"{reference_label}_std_{metric_key}": float(
             paired[reference_label].std(ddof=1) if len(paired) > 1 else 0.0
         ),
-        f"{variant_label}_mean_val_macro_f1": float(paired[variant_label].mean()),
-        f"{variant_label}_std_val_macro_f1": float(
+        f"{variant_label}_mean_{metric_key}": float(paired[variant_label].mean()),
+        f"{variant_label}_std_{metric_key}": float(
             paired[variant_label].std(ddof=1) if len(paired) > 1 else 0.0
         ),
-        "delta_mean_val_macro_f1": float(deltas.mean()),
-        "delta_std_val_macro_f1": float(deltas.std(ddof=1) if len(deltas) > 1 else 0.0),
+        f"delta_mean_{metric_key}": float(deltas.mean()),
+        f"delta_std_{metric_key}": float(deltas.std(ddof=1) if len(deltas) > 1 else 0.0),
         "t_statistic": float(test_result.statistic),
         "p_value": float(test_result.pvalue),
         "reject_h0": bool(test_result.pvalue < alpha),

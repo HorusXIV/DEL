@@ -94,11 +94,40 @@ def build_transfer_learning_loaders(
     return train_loader, val_loader
 
 
+def build_transfer_learning_test_loader(
+    data_dir: Path,
+    batch_size: int,
+    num_workers: int,
+    pin_memory: bool,
+) -> DataLoader:
+    transform = transforms.Compose(
+        [
+            transforms.Resize((INPUT_SIZE, INPUT_SIZE)),
+            transforms.ToTensor(),
+            transforms.Normalize(mean=IMAGENET_MEAN, std=IMAGENET_STD),
+        ]
+    )
+    test_dataset = datasets.SVHN(
+        root=str(data_dir),
+        split="test",
+        download=True,
+        transform=transform,
+    )
+    return DataLoader(
+        test_dataset,
+        batch_size=batch_size,
+        shuffle=False,
+        num_workers=num_workers,
+        pin_memory=pin_memory,
+    )
+
+
 def run_single_experiment(
     repeat_idx: int,
     seed: int,
     train_loader,
     val_loader,
+    test_loader,
     settings,
     device: str,
 ) -> dict[str, float | int | str]:
@@ -117,6 +146,7 @@ def run_single_experiment(
         fit_config=FitConfig(epochs=settings.epochs),
         train_loader=train_loader,
         val_loader=val_loader,
+        test_loader=test_loader,
         extra_wandb_config={
             "experiment_name": "Hypothese_10",
             "hypothesis_id": "10",
@@ -149,6 +179,12 @@ def main() -> None:
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
     train_val_cache: dict[int, tuple[DataLoader, DataLoader]] = {}
+    test_loader = build_transfer_learning_test_loader(
+        data_dir=data_dir,
+        batch_size=settings.batch_size,
+        num_workers=settings.num_workers,
+        pin_memory=pin_memory,
+    )
     normalization_stats = build_normalization_summary(
         IMAGENET_MEAN,
         IMAGENET_STD,
@@ -176,6 +212,7 @@ def main() -> None:
                 seed=seed,
                 train_loader=train_loader,
                 val_loader=val_loader,
+                test_loader=test_loader,
                 settings=settings,
                 device=device,
             )

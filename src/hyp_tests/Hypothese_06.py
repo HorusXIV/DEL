@@ -18,6 +18,7 @@ from src.hyp_tests.common import (
     build_normalization_summary,
     build_runs_dataframe,
     build_standard_run_config,
+    build_test_loader,
     final_metrics,
     get_shared_settings,
     iter_repeat_seeds,
@@ -71,6 +72,7 @@ def run_single_experiment(
     seed: int,
     train_loader,
     val_loader,
+    test_loader,
     settings,
     device: str,
 ) -> dict[str, float | int | str]:
@@ -89,6 +91,7 @@ def run_single_experiment(
         fit_config=FitConfig(epochs=settings.epochs),
         train_loader=train_loader,
         val_loader=val_loader,
+        test_loader=test_loader,
         extra_wandb_config={
             "experiment_name": "Hypothese_06",
             "hypothesis_id": "06",
@@ -117,6 +120,7 @@ def main() -> None:
 
     train_val_cache: dict[int, tuple] = {}
     normalization_stats: dict[str, object] | None = None
+    test_loader = None
 
     experiment_records: list[dict[str, float | int | str]] = []
     for repeat_idx, seed in iter_repeat_seeds(settings):
@@ -136,6 +140,15 @@ def main() -> None:
 
         train_loader, val_loader, mean, std = train_val_cache[seed]
         normalization_stats = build_normalization_summary(mean, std)
+        if test_loader is None:
+            test_loader = build_test_loader(
+                data_dir=data_dir,
+                batch_size=settings.batch_size,
+                num_workers=settings.num_workers,
+                pin_memory=pin_memory,
+                mean=mean,
+                std=std,
+            )
 
         experiment_records.append(
             run_single_experiment(
@@ -143,6 +156,7 @@ def main() -> None:
                 seed=seed,
                 train_loader=train_loader,
                 val_loader=val_loader,
+                test_loader=test_loader,
                 settings=settings,
                 device=device,
             )

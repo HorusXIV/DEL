@@ -298,6 +298,7 @@ def run_model(
     fit_config: FitConfig | None = None,
     train_loader: DataLoader | None = None,
     val_loader: DataLoader | None = None,
+    test_loader: DataLoader | None = None,
     optimizer_factory: Callable[[Any], optim.Optimizer] | None = None,
     extra_wandb_config: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
@@ -372,6 +373,14 @@ def run_model(
             val_loader=val_loader,
             config=active_fit_config,
         )
+        test_metrics = (
+            trainer.evaluate(loader=test_loader) if test_loader is not None else None
+        )
+        if test_metrics is not None and logger is not None:
+            logger.log_metrics(
+                {f"test/{key}": value for key, value in test_metrics.items()},
+                step=active_fit_config.epochs,
+            )
     finally:
         logger.finish()
 
@@ -384,6 +393,8 @@ def run_model(
         "device": device,
         "train_loader": train_loader,
         "val_loader": val_loader,
+        "test_loader": test_loader,
+        "test_metrics": test_metrics,
     }
 
 
@@ -392,6 +403,7 @@ def run_baseline(
     fit_config: FitConfig | None = None,
     train_loader: DataLoader | None = None,
     val_loader: DataLoader | None = None,
+    test_loader: DataLoader | None = None,
 ) -> dict[str, Any]:
     return run_model(
         model_factory=BaselineCNN,
@@ -400,4 +412,5 @@ def run_baseline(
         fit_config=fit_config,
         train_loader=train_loader,
         val_loader=val_loader,
+        test_loader=test_loader,
     )

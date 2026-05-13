@@ -17,6 +17,7 @@ from src.hyp_tests.common import (
     build_normalization_summary,
     build_runs_dataframe,
     build_standard_run_config,
+    build_test_loader,
     build_train_loader,
     final_metrics,
     get_shared_settings,
@@ -38,6 +39,7 @@ def run_single_experiment(
     repeat_idx: int,
     seed: int,
     train_loader,
+    test_loader,
     settings,
     device: str,
 ) -> dict[str, float | int | str]:
@@ -55,6 +57,7 @@ def run_single_experiment(
         config=config,
         fit_config=FitConfig(epochs=settings.epochs),
         train_loader=train_loader,
+        test_loader=test_loader,
         optimizer_factory=lambda params: optim.Adam(
             params,
             lr=settings.learning_rate,
@@ -91,6 +94,14 @@ def main() -> None:
         num_workers=settings.num_workers,
         pin_memory=pin_memory,
     )
+    test_loader = build_test_loader(
+        data_dir=data_dir,
+        batch_size=settings.batch_size,
+        num_workers=settings.num_workers,
+        pin_memory=pin_memory,
+        mean=mean,
+        std=std,
+    )
     normalization_stats = build_normalization_summary(mean, std)
 
     experiment_records: list[dict[str, float | int | str]] = []
@@ -101,6 +112,7 @@ def main() -> None:
                 repeat_idx=repeat_idx,
                 seed=seed,
                 train_loader=train_loader,
+                test_loader=test_loader,
                 settings=settings,
                 device=device,
             )
