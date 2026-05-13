@@ -1,0 +1,2671 @@
+  0%|          | 0.00/64.3M [00:00<?, ?B/s]  0%|          | 32.8k/64.3M [00:00<09:49, 109kB/s]  0%|          | 65.5k/64.3M [00:00<07:13, 148kB/s]  0%|          | 98.3k/64.3M [00:00<06:10, 173kB/s]  0%|          | 131k/64.3M [00:00<05:44, 186kB/s]   0%|          | 164k/64.3M [00:00<05:25, 197kB/s]  0%|          | 229k/64.3M [00:01<03:56, 271kB/s]  0%|          | 262k/64.3M [00:01<04:16, 250kB/s]  1%|          | 328k/64.3M [00:01<03:32, 301kB/s]  1%|          | 360k/64.3M [00:01<03:41, 288kB/s]  1%|          | 426k/64.3M [00:01<03:11, 334kB/s]  1%|          | 492k/64.3M [00:01<02:54, 365kB/s]  1%|          | 590k/64.3M [00:01<02:23, 445kB/s]  1%|          | 688k/64.3M [00:02<02:05, 506kB/s]  1%|          | 786k/64.3M [00:02<01:55, 551kB/s]  1%|▏         | 918k/64.3M [00:02<01:39, 640kB/s]  2%|▏         | 1.05M/64.3M [00:02<01:29, 710kB/s]  2%|▏         | 1.21M/64.3M [00:02<01:17, 814kB/s]  2%|▏         | 1.38M/64.3M [00:02<01:08, 920kB/s]  2%|▏         | 1.57M/64.3M [00:03<01:02, 1.01MB/s]  3%|▎         | 1.80M/64.3M [00:03<00:55, 1.13MB/s]  3%|▎         | 2.03M/64.3M [00:03<00:48, 1.27MB/s]  4%|▎         | 2.33M/64.3M [00:03<00:42, 1.45MB/s]  4%|▍         | 2.62M/64.3M [00:03<00:38, 1.60MB/s]  5%|▍         | 2.95M/64.3M [00:03<00:34, 1.80MB/s]  5%|▌         | 3.31M/64.3M [00:03<00:31, 1.95MB/s]  6%|▌         | 3.64M/64.3M [00:04<00:27, 2.24MB/s]  6%|▌         | 3.90M/64.3M [00:04<00:26, 2.31MB/s]  6%|▋         | 4.16M/64.3M [00:04<00:26, 2.24MB/s]  7%|▋         | 4.42M/64.3M [00:04<00:27, 2.19MB/s]  7%|▋         | 4.78M/64.3M [00:04<00:26, 2.25MB/s]  8%|▊         | 5.21M/64.3M [00:04<00:24, 2.43MB/s]  9%|▉         | 5.64M/64.3M [00:04<00:22, 2.56MB/s]  9%|▉         | 6.09M/64.3M [00:05<00:21, 2.71MB/s] 10%|█         | 6.55M/64.3M [00:05<00:18, 3.12MB/s] 11%|█         | 6.88M/64.3M [00:05<00:19, 2.93MB/s] 11%|█         | 7.21M/64.3M [00:05<00:19, 2.90MB/s] 12%|█▏        | 7.57M/64.3M [00:05<00:18, 3.06MB/s] 12%|█▏        | 8.03M/64.3M [00:05<00:16, 3.38MB/s] 13%|█▎        | 8.39M/64.3M [00:05<00:17, 3.29MB/s] 14%|█▎        | 8.75M/64.3M [00:05<00:16, 3.29MB/s] 14%|█▍        | 9.24M/64.3M [00:05<00:15, 3.51MB/s] 15%|█▌        | 9.76M/64.3M [00:06<00:13, 3.92MB/s] 16%|█▌        | 10.2M/64.3M [00:06<00:14, 3.73MB/s] 16%|█▋        | 10.6M/64.3M [00:06<00:14, 3.76MB/s] 17%|█▋        | 11.1M/64.3M [00:06<00:13, 4.02MB/s] 18%|█▊        | 11.6M/64.3M [00:06<00:12, 4.06MB/s] 19%|█▊        | 12.0M/64.3M [00:06<00:12, 4.18MB/s] 20%|█▉        | 12.6M/64.3M [00:06<00:11, 4.41MB/s] 21%|██        | 13.2M/64.3M [00:06<00:10, 4.72MB/s] 21%|██▏       | 13.7M/64.3M [00:06<00:10, 4.66MB/s] 22%|██▏       | 14.3M/64.3M [00:07<00:10, 4.75MB/s] 23%|██▎       | 14.9M/64.3M [00:07<00:10, 4.91MB/s] 24%|██▍       | 15.6M/64.3M [00:07<00:09, 5.29MB/s] 25%|██▌       | 16.2M/64.3M [00:07<00:09, 5.13MB/s] 26%|██▌       | 16.7M/64.3M [00:07<00:09, 5.23MB/s] 27%|██▋       | 17.4M/64.3M [00:07<00:08, 5.55MB/s] 28%|██▊       | 18.0M/64.3M [00:07<00:08, 5.37MB/s] 29%|██▉       | 18.7M/64.3M [00:07<00:08, 5.61MB/s] 30%|██▉       | 19.3M/64.3M [00:07<00:07, 5.63MB/s] 31%|███       | 19.9M/64.3M [00:08<00:07, 5.79MB/s] 32%|███▏      | 20.5M/64.3M [00:08<00:07, 5.95MB/s] 33%|███▎      | 21.2M/64.3M [00:08<00:07, 5.80MB/s] 34%|███▍      | 22.0M/64.3M [00:08<00:06, 6.32MB/s] 35%|███▌      | 22.6M/64.3M [00:08<00:06, 6.11MB/s] 36%|███▌      | 23.3M/64.3M [00:08<00:06, 6.12MB/s] 38%|███▊      | 24.2M/64.3M [00:08<00:06, 6.55MB/s] 39%|███▊      | 24.8M/64.3M [00:08<00:06, 6.46MB/s] 40%|███▉      | 25.5M/64.3M [00:08<00:06, 6.45MB/s] 41%|████      | 26.3M/64.3M [00:09<00:05, 6.79MB/s] 42%|████▏     | 27.0M/64.3M [00:09<00:05, 6.67MB/s] 43%|████▎     | 27.7M/64.3M [00:09<00:05, 6.91MB/s] 44%|████▍     | 28.5M/64.3M [00:09<00:05, 7.09MB/s] 46%|████▌     | 29.4M/64.3M [00:09<00:04, 7.49MB/s] 47%|████▋     | 30.2M/64.3M [00:09<00:04, 7.47MB/s] 48%|████▊     | 30.9M/64.3M [00:09<00:04, 7.22MB/s] 50%|████▉     | 31.9M/64.3M [00:09<00:04, 7.56MB/s] 51%|█████     | 32.7M/64.3M [00:09<00:04, 7.29MB/s] 52%|█████▏    | 33.4M/64.3M [00:09<00:04, 7.32MB/s] 53%|█████▎    | 34.3M/64.3M [00:10<00:03, 7.77MB/s] 55%|█████▍    | 35.1M/64.3M [00:10<00:03, 7.53MB/s] 56%|█████▌    | 36.0M/64.3M [00:10<00:03, 7.74MB/s] 57%|█████▋    | 36.8M/64.3M [00:10<00:03, 7.70MB/s] 59%|█████▊    | 37.7M/64.3M [00:10<00:03, 8.12MB/s] 60%|██████    | 38.6M/64.3M [00:10<00:03, 8.01MB/s] 61%|██████▏   | 39.5M/64.3M [00:10<00:03, 8.19MB/s] 63%|██████▎   | 40.5M/64.3M [00:10<00:02, 8.49MB/s] 64%|██████▍   | 41.3M/64.3M [00:10<00:02, 8.37MB/s] 66%|██████▌   | 42.2M/64.3M [00:11<00:02, 7.83MB/s] 67%|██████▋   | 43.3M/64.3M [00:11<00:02, 8.42MB/s] 69%|██████▉   | 44.3M/64.3M [00:11<00:02, 9.08MB/s] 70%|███████   | 45.3M/64.3M [00:11<00:02, 8.43MB/s] 72%|███████▏  | 46.2M/64.3M [00:11<00:02, 8.60MB/s] 73%|███████▎  | 47.2M/64.3M [00:11<00:01, 8.73MB/s] 75%|███████▍  | 48.1M/64.3M [00:11<00:01, 8.66MB/s] 76%|███████▋  | 49.0M/64.3M [00:11<00:01, 8.63MB/s] 78%|███████▊  | 50.2M/64.3M [00:11<00:01, 9.27MB/s] 80%|████████  | 51.5M/64.3M [00:12<00:01, 9.91MB/s] 82%|████████▏ | 52.5M/64.3M [00:12<00:01, 9.65MB/s] 83%|████████▎ | 53.5M/64.3M [00:12<00:01, 9.73MB/s] 85%|████████▍ | 54.6M/64.3M [00:12<00:00, 10.0MB/s] 87%|████████▋ | 55.7M/64.3M [00:12<00:00, 10.1MB/s] 88%|████████▊ | 56.8M/64.3M [00:12<00:00, 9.86MB/s] 91%|█████████ | 58.2M/64.3M [00:12<00:00, 10.8MB/s] 93%|█████████▎| 59.8M/64.3M [00:12<00:00, 11.2MB/s] 95%|█████████▌| 61.1M/64.3M [00:12<00:00, 11.3MB/s] 97%|█████████▋| 62.3M/64.3M [00:13<00:00, 11.3MB/s] 99%|█████████▉| 63.7M/64.3M [00:13<00:00, 12.0MB/s]100%|██████████| 64.3M/64.3M [00:13<00:00, 4.86MB/s]
+wandb: [wandb.login()] Loaded credentials for https://api.wandb.ai from /home/lukas/.netrc.
+wandb: Currently logged in as: lukas-breiter (lukas-breiter-fachhochschule-nordwestschweiz-fhnw) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: setting up run ail2w6h0
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_085440-ail2w6h0
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Baseline_HypTests-repeat-01
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/ail2w6h0
+wandb: updating run metadata
+wandb: uploading history steps 29-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▇▇▇▇█████▇██████████████████
+wandb:            train/loss █▃▂▂▂▂▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▇▇▇██████▇██████████████████
+wandb: train/macro_precision ▁▆▆▇▇▇▇████▇██████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.91833
+wandb:             test/loss 0.77531
+wandb:         test/macro_f1 0.91103
+wandb:  test/macro_precision 0.9111
+wandb:     test/macro_recall 0.9113
+wandb:        train/accuracy 0.99994
+wandb:            train/loss 0.00035
+wandb:        train/macro_f1 0.99994
+wandb: train/macro_precision 0.99994
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Baseline_HypTests-repeat-01 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/ail2w6h0
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_085440-ail2w6h0/logs
+wandb: setting up run 157lihwy
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_085547-157lihwy
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Baseline_HypTests-repeat-02
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/157lihwy
+wandb: updating run metadata
+wandb: uploading config.yaml; uploading wandb-summary.json
+wandb: uploading history steps 29-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▇▇▇█████████████████████████
+wandb:            train/loss █▄▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▇▇▇█████████████████████████
+wandb: train/macro_precision ▁▅▇▇▇▇████████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.91603
+wandb:             test/loss 0.80822
+wandb:         test/macro_f1 0.90789
+wandb:  test/macro_precision 0.90788
+wandb:     test/macro_recall 0.90862
+wandb:        train/accuracy 0.99998
+wandb:            train/loss 0.00013
+wandb:        train/macro_f1 0.99998
+wandb: train/macro_precision 0.99999
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Baseline_HypTests-repeat-02 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/157lihwy
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_085547-157lihwy/logs
+wandb: setting up run 2w0pdhps
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_085653-2w0pdhps
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Baseline_HypTests-repeat-03
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/2w0pdhps
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading config.yaml
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▇▇▇▇████▆▇██████████████████
+wandb:            train/loss █▄▂▂▂▂▂▁▁▁▄▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▇▇▇█████▆███████████████████
+wandb: train/macro_precision ▁▅▇▇▇▇████▆▇██████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.91334
+wandb:             test/loss 0.85329
+wandb:         test/macro_f1 0.90533
+wandb:  test/macro_precision 0.90517
+wandb:     test/macro_recall 0.90608
+wandb:        train/accuracy 0.99997
+wandb:            train/loss 0.00033
+wandb:        train/macro_f1 0.99996
+wandb: train/macro_precision 0.99996
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Baseline_HypTests-repeat-03 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/2w0pdhps
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_085653-2w0pdhps/logs
+wandb: setting up run pso1qmcs
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_085759-pso1qmcs
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Baseline_HypTests-repeat-04
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/pso1qmcs
+wandb: uploading history steps 22-29, summary; updating run metadata
+wandb: updating run metadata
+wandb: uploading config.yaml
+wandb: uploading history steps 30-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▂▆▇▇▇███████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            train/loss █▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁              
+wandb:        train/macro_f1 ▂▆▇▇▇███████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: train/macro_precision ▄▆▇▇▇███████████▂▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    train/macro_recall ▂▆▇▇▇███████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.06699
+wandb:             test/loss nan
+wandb:         test/macro_f1 0.01256
+wandb:  test/macro_precision 0.0067
+wandb:     test/macro_recall 0.1
+wandb:        train/accuracy 0.06818
+wandb:            train/loss nan
+wandb:        train/macro_f1 0.01276
+wandb: train/macro_precision 0.00682
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Baseline_HypTests-repeat-04 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/pso1qmcs
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_085759-pso1qmcs/logs
+wandb: setting up run 9cqv3oge
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_085906-9cqv3oge
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Baseline_HypTests-repeat-05
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/9cqv3oge
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading wandb-summary.json
+wandb: uploading history steps 29-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▇▇▇█████████████████████████
+wandb:            train/loss █▃▂▂▂▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▇▇▇█████████████████████████
+wandb: train/macro_precision ▁▅▇▇▇▇█▇██████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.91626
+wandb:             test/loss 0.7878
+wandb:         test/macro_f1 0.90835
+wandb:  test/macro_precision 0.90854
+wandb:     test/macro_recall 0.90853
+wandb:        train/accuracy 0.99994
+wandb:            train/loss 0.00038
+wandb:        train/macro_f1 0.99994
+wandb: train/macro_precision 0.99994
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Baseline_HypTests-repeat-05 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/9cqv3oge
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_085906-9cqv3oge/logs
+Run-Metriken pro Wiederholung:
+ repeat_idx  seed model_variant  model_name  train_accuracy  train_macro_precision  train_macro_recall  train_macro_f1  train_loss  val_accuracy  val_macro_precision  val_macro_recall  val_macro_f1  val_loss  test_accuracy  test_macro_precision  test_macro_recall  test_macro_f1  test_loss
+          1    42      baseline BaselineCNN        0.999939               0.999937            0.999937        0.999937    0.000348      0.925734             0.925085          0.917924      0.921290  0.649926       0.918331              0.911099           0.911298       0.911033   0.775305
+          2    43      baseline BaselineCNN        0.999985               0.999985            0.999976        0.999981    0.000133      0.922184             0.915820          0.916906      0.916257  0.655578       0.916026              0.907882           0.908616       0.907895   0.808223
+          3    44      baseline BaselineCNN        0.999970               0.999961            0.999961        0.999961    0.000334      0.924096             0.922557          0.919345      0.920795  0.680946       0.913337              0.905173           0.906076       0.905327   0.853287
+          4    45      baseline BaselineCNN        0.068176               0.006818            0.100000        0.012765         NaN      0.061843             0.006184          0.100000      0.011648       NaN       0.066994              0.006699           0.100000       0.012558        NaN
+          5    46      baseline BaselineCNN        0.999939               0.999937            0.999937        0.999937    0.000378      0.921911             0.916487          0.913835      0.915091  0.664375       0.916257              0.908539           0.908535       0.908346   0.787801
+
+Aggregierte Kennzahlen pro Modell:
+              train_loss         train_accuracy         train_macro_precision         train_macro_recall         train_macro_f1         val_loss         val_accuracy         val_macro_precision         val_macro_recall         val_macro_f1         test_loss         test_accuracy         test_macro_precision         test_macro_recall         test_macro_f1        
+                    mean     std           mean     std                  mean     std               mean     std           mean     std     mean     std         mean     std                mean     std             mean     std         mean     std      mean     std          mean     std                 mean     std              mean     std          mean     std
+model_variant                                                                                                                                                                                                                                                                                                                                                               
+baseline          0.0003  0.0001         0.8136  0.4167                0.8013  0.4441               0.82  0.4025         0.8025  0.4415   0.6627  0.0135       0.7512  0.3853              0.7372  0.4087           0.7536  0.3654        0.737  0.4055    0.8062  0.0342        0.7462  0.3797               0.7279  0.4032            0.7469  0.3616         0.729  0.4005
+
+CSV gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/baseline_runs.csv
+JSON gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/baseline_summary.json
+Running hypothesis scripts:   0%|          | 0/10 [00:00<?, ?script/s]                                                                      Running hypothesis scripts:   0%|          | 0/10 [00:00<?, ?script/s]Running Hypothese_01.py...
+wandb: [wandb.login()] Loaded credentials for https://api.wandb.ai from /home/lukas/.netrc.
+wandb: Currently logged in as: lukas-breiter (lukas-breiter-fachhochschule-nordwestschweiz-fhnw) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: setting up run 89bo1wsn
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_090514-89bo1wsn
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_01-deep-repeat-01
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/89bo1wsn
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▄▇▇▇█████████████████████████
+wandb:            train/loss █▅▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▅▇▇▇█████████████████████████
+wandb: train/macro_precision ▁▅▇▇▇█████████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.92014
+wandb:             test/loss 0.82048
+wandb:         test/macro_f1 0.91329
+wandb:  test/macro_precision 0.91343
+wandb:     test/macro_recall 0.91342
+wandb:        train/accuracy 0.99994
+wandb:            train/loss 0.00031
+wandb:        train/macro_f1 0.99994
+wandb: train/macro_precision 0.99994
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_01-deep-repeat-01 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/89bo1wsn
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_090514-89bo1wsn/logs
+wandb: setting up run l3n8e1yx
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_090636-l3n8e1yx
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_01-deep-repeat-02
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/l3n8e1yx
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 29-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▃▇▇▇█████████████████████████
+wandb:            train/loss █▆▃▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▄▇▇▇█████████████████████████
+wandb: train/macro_precision ▁▅▇▇▇█████████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.91872
+wandb:             test/loss 0.90536
+wandb:         test/macro_f1 0.91076
+wandb:  test/macro_precision 0.91025
+wandb:     test/macro_recall 0.91178
+wandb:        train/accuracy 0.99998
+wandb:            train/loss 9e-05
+wandb:        train/macro_f1 0.99998
+wandb: train/macro_precision 0.99999
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_01-deep-repeat-02 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/l3n8e1yx
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_090636-l3n8e1yx/logs
+wandb: setting up run wdlfe12r
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_090757-wdlfe12r
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_01-deep-repeat-03
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/wdlfe12r
+wandb: updating run metadata
+wandb: uploading config.yaml; uploading wandb-summary.json
+wandb: uploading history steps 29-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▃▆▇▇▇███▇████████████████████
+wandb:            train/loss █▆▃▂▂▂▂▁▁▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▄▇▇▇▇███▇████████████████████
+wandb: train/macro_precision ▁▅▇▇▇████▇████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.88891
+wandb:             test/loss 1.06967
+wandb:         test/macro_f1 0.87863
+wandb:  test/macro_precision 0.87936
+wandb:     test/macro_recall 0.88116
+wandb:        train/accuracy 0.99809
+wandb:            train/loss 0.00756
+wandb:        train/macro_f1 0.99793
+wandb: train/macro_precision 0.99793
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_01-deep-repeat-03 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/wdlfe12r
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_090757-wdlfe12r/logs
+wandb: setting up run izsyxdk0
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_090918-izsyxdk0
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_01-deep-repeat-04
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/izsyxdk0
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading wandb-summary.json
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▄▇▇▇▇████████████████████████
+wandb:            train/loss █▅▃▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▅▇▇▇█████████████████████████
+wandb: train/macro_precision ▁▅▇▇▇█████████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.92667
+wandb:             test/loss 0.74336
+wandb:         test/macro_f1 0.91982
+wandb:  test/macro_precision 0.91957
+wandb:     test/macro_recall 0.92045
+wandb:        train/accuracy 0.99994
+wandb:            train/loss 0.00024
+wandb:        train/macro_f1 0.99994
+wandb: train/macro_precision 0.99994
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_01-deep-repeat-04 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/izsyxdk0
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_090918-izsyxdk0/logs
+wandb: setting up run ijqbx2qx
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_091039-ijqbx2qx
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_01-deep-repeat-05
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/ijqbx2qx
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 29-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▄▇▇▇█████████████████████████
+wandb:            train/loss █▆▃▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▄▇▇▇█████████████████████████
+wandb: train/macro_precision ▁▅▇▇▇█████████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.91184
+wandb:             test/loss 0.92043
+wandb:         test/macro_f1 0.90357
+wandb:  test/macro_precision 0.90275
+wandb:     test/macro_recall 0.90502
+wandb:        train/accuracy 0.99994
+wandb:            train/loss 0.00032
+wandb:        train/macro_f1 0.99994
+wandb: train/macro_precision 0.99994
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_01-deep-repeat-05 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/ijqbx2qx
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_091039-ijqbx2qx/logs
+Running hypothesis scripts:  10%|█         | 1/10 [06:51<1:01:47, 411.94s/script]                                                                                 Running hypothesis scripts:  10%|█         | 1/10 [06:51<1:01:47, 411.94s/script]Run-Metriken pro Wiederholung:
+ repeat_idx  seed model_variant model_name  train_accuracy  train_macro_precision  train_macro_recall  train_macro_f1  train_loss  val_accuracy  val_macro_precision  val_macro_recall  val_macro_f1  val_loss  test_accuracy  test_macro_precision  test_macro_recall  test_macro_f1  test_loss
+          1    42          deep    DeepCNN        0.999939               0.999937            0.999937        0.999937    0.000309      0.930785             0.929821          0.923029      0.926244  0.665387       0.920137              0.913430           0.913419       0.913287   0.820482
+          2    43          deep    DeepCNN        0.999985               0.999985            0.999976        0.999981    0.000088      0.922457             0.917105          0.917725      0.917200  0.742621       0.918715              0.910252           0.911781       0.910761   0.905361
+          3    44          deep    DeepCNN        0.998089               0.997933            0.997924        0.997928    0.007556      0.906075             0.901842          0.899803      0.900376  0.831139       0.888906              0.879358           0.881164       0.878634   1.069673
+          4    45          deep    DeepCNN        0.999939               0.999937            0.999937        0.999937    0.000242      0.925051             0.921066          0.920221      0.920587  0.669380       0.926667              0.919574           0.920448       0.919815   0.743362
+          5    46          deep    DeepCNN        0.999939               0.999937            0.999937        0.999937    0.000318      0.920683             0.913184          0.913245      0.913156  0.733901       0.911839              0.902755           0.905023       0.903575   0.920430
+
+Aggregierte Kennzahlen pro Modell:
+              train_loss         train_accuracy         train_macro_precision         train_macro_recall         train_macro_f1         val_loss         val_accuracy         val_macro_precision         val_macro_recall         val_macro_f1         test_loss         test_accuracy         test_macro_precision         test_macro_recall         test_macro_f1       
+                    mean     std           mean     std                  mean     std               mean     std           mean     std     mean     std         mean     std                mean     std             mean     std         mean     std      mean     std          mean     std                 mean     std              mean     std          mean    std
+model_variant                                                                                                                                                                                                                                                                                                                                                              
+deep              0.0017  0.0033         0.9996  0.0008                0.9995  0.0009             0.9995  0.0009         0.9995  0.0009   0.7285  0.0675        0.921  0.0092              0.9166  0.0103           0.9148  0.0091       0.9155  0.0097    0.8919  0.1222        0.9133  0.0146               0.9051  0.0156            0.9064  0.0151        0.9052  0.016
+
+CSV gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_01_runs.csv
+JSON gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_01_summary.json
+Running Hypothese_02.py...
+wandb: setting up run g9qesf51
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_091204-g9qesf51
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_02-wide-repeat-01
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/g9qesf51
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 29-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▇▇▇█████████████████████████
+wandb:            train/loss █▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▇▇▇█████████████████████████
+wandb: train/macro_precision ▁▆▇▇▇▇████████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.9191
+wandb:             test/loss 0.75577
+wandb:         test/macro_f1 0.91167
+wandb:  test/macro_precision 0.91247
+wandb:     test/macro_recall 0.91121
+wandb:        train/accuracy 0.99994
+wandb:            train/loss 0.00035
+wandb:        train/macro_f1 0.99994
+wandb: train/macro_precision 0.99994
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_02-wide-repeat-01 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/g9qesf51
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_091204-g9qesf51/logs
+wandb: setting up run rd1k34t6
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_091428-rd1k34t6
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_02-wide-repeat-02
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/rd1k34t6
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 29-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▇▇▇█████████████████████████
+wandb:            train/loss █▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▇▇▇█████████████████████████
+wandb: train/macro_precision ▁▆▇▇▇▇████████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.91687
+wandb:             test/loss 0.78391
+wandb:         test/macro_f1 0.90895
+wandb:  test/macro_precision 0.90831
+wandb:     test/macro_recall 0.91052
+wandb:        train/accuracy 0.99998
+wandb:            train/loss 0.00013
+wandb:        train/macro_f1 0.99998
+wandb: train/macro_precision 0.99999
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_02-wide-repeat-02 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/rd1k34t6
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_091428-rd1k34t6/logs
+wandb: setting up run q8v2kx0z
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_091652-q8v2kx0z
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_02-wide-repeat-03
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/q8v2kx0z
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading config.yaml
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▃▇▇▇██████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            train/loss █▃▂▂▂▁▁▁▁▁                    
+wandb:        train/macro_f1 ▂▇▇▇██████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: train/macro_precision ▄▇▇▇██████▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    train/macro_recall ▂▇▇▇██████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.06699
+wandb:             test/loss nan
+wandb:         test/macro_f1 0.01256
+wandb:  test/macro_precision 0.0067
+wandb:     test/macro_recall 0.1
+wandb:        train/accuracy 0.06719
+wandb:            train/loss nan
+wandb:        train/macro_f1 0.01259
+wandb: train/macro_precision 0.00672
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_02-wide-repeat-03 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/q8v2kx0z
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_091652-q8v2kx0z/logs
+wandb: setting up run 212076pd
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_091912-212076pd
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_02-wide-repeat-04
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/212076pd
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading config.yaml
+wandb: uploading history steps 29-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▇▇▇█████████████████████████
+wandb:            train/loss █▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▇▇▇█████████████████████████
+wandb: train/macro_precision ▁▆▇▇▇▇████████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.92106
+wandb:             test/loss 0.72495
+wandb:         test/macro_f1 0.91375
+wandb:  test/macro_precision 0.91333
+wandb:     test/macro_recall 0.91451
+wandb:        train/accuracy 0.99994
+wandb:            train/loss 0.00028
+wandb:        train/macro_f1 0.99994
+wandb: train/macro_precision 0.99994
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_02-wide-repeat-04 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/212076pd
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_091912-212076pd/logs
+wandb: setting up run 7laebnd3
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_092136-7laebnd3
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_02-wide-repeat-05
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/7laebnd3
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading config.yaml
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▇▇▇█████████████████████████
+wandb:            train/loss █▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▇▇▇█████████████████████████
+wandb: train/macro_precision ▁▆▇▇▇▇████████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.91964
+wandb:             test/loss 0.77115
+wandb:         test/macro_f1 0.91188
+wandb:  test/macro_precision 0.91172
+wandb:     test/macro_recall 0.9122
+wandb:        train/accuracy 0.99994
+wandb:            train/loss 0.00026
+wandb:        train/macro_f1 0.99994
+wandb: train/macro_precision 0.99994
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_02-wide-repeat-05 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/7laebnd3
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_092136-7laebnd3/logs
+Running hypothesis scripts:  20%|██        | 2/10 [18:52<1:19:05, 593.22s/script]                                                                                 Running hypothesis scripts:  20%|██        | 2/10 [18:52<1:19:05, 593.22s/script]Run-Metriken pro Wiederholung:
+ repeat_idx  seed model_variant model_name  train_accuracy  train_macro_precision  train_macro_recall  train_macro_f1  train_loss  val_accuracy  val_macro_precision  val_macro_recall  val_macro_f1  val_loss  test_accuracy  test_macro_precision  test_macro_recall  test_macro_f1  test_loss
+          1    42          wide    WideCNN        0.999939               0.999937            0.999937        0.999937    0.000354      0.929010             0.928716          0.922011      0.925196  0.590094       0.919100              0.912471           0.911208       0.911674   0.755765
+          2    43          wide    WideCNN        0.999985               0.999985            0.999976        0.999981    0.000133      0.928191             0.923052          0.923101      0.922966  0.599644       0.916872              0.908308           0.910517       0.908945   0.783912
+          3    44          wide    WideCNN        0.067190               0.006719            0.100000        0.012592         NaN      0.070717             0.007072          0.100000      0.013209       NaN       0.066994              0.006699           0.100000       0.012558        NaN
+          4    45          wide    WideCNN        0.999939               0.999937            0.999937        0.999937    0.000277      0.923959             0.918922          0.918498      0.918642  0.642247       0.921059              0.913333           0.914515       0.913750   0.724951
+          5    46          wide    WideCNN        0.999939               0.999937            0.999937        0.999937    0.000265      0.931058             0.926617          0.923758      0.925152  0.627824       0.919637              0.911720           0.912203       0.911882   0.771146
+
+Aggregierte Kennzahlen pro Modell:
+              train_loss         train_accuracy         train_macro_precision         train_macro_recall         train_macro_f1         val_loss         val_accuracy         val_macro_precision         val_macro_recall         val_macro_f1         test_loss         test_accuracy         test_macro_precision         test_macro_recall         test_macro_f1        
+                    mean     std           mean     std                  mean     std               mean     std           mean     std     mean     std         mean     std                mean     std             mean     std         mean     std      mean     std          mean     std                 mean     std              mean     std          mean     std
+model_variant                                                                                                                                                                                                                                                                                                                                                               
+wide              0.0003  0.0001         0.8134  0.4171                0.8013  0.4442               0.82  0.4025         0.8025  0.4416    0.615  0.0242       0.7566  0.3834              0.7409  0.4102           0.7575  0.3675        0.741  0.4069    0.7589  0.0254        0.7487  0.3811               0.7305  0.4046            0.7497  0.3632        0.7318  0.4021
+
+CSV gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_02_runs.csv
+JSON gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_02_summary.json
+Running Hypothese_03.py...
+wandb: setting up run azg16cd9
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_092404-azg16cd9
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_03-k3-repeat-01
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/azg16cd9
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 23-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▅▇▇▇▇▇▇██████████████████████
+wandb:            train/loss █▅▃▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▅▇▇▇▇▇███████████████████████
+wandb: train/macro_precision ▁▅▆▇▇▇▇▇██████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.8939
+wandb:             test/loss 0.81761
+wandb:         test/macro_f1 0.88333
+wandb:  test/macro_precision 0.88101
+wandb:     test/macro_recall 0.88648
+wandb:        train/accuracy 0.99681
+wandb:            train/loss 0.01272
+wandb:        train/macro_f1 0.99666
+wandb: train/macro_precision 0.99664
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_03-k3-repeat-01 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/azg16cd9
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_092404-azg16cd9/logs
+wandb: setting up run 5ot8iy4w
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_092507-5ot8iy4w
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_03-k3-repeat-02
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/5ot8iy4w
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 23-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▃▇▇▇▇▇██████████████▇████████
+wandb:            train/loss █▆▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▃▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▄▇▇▇▇███████████████▇████████
+wandb: train/macro_precision ▁▅▇▇▇▇███████████████▇████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.82579
+wandb:             test/loss 1.95839
+wandb:         test/macro_f1 0.81159
+wandb:  test/macro_precision 0.84309
+wandb:     test/macro_recall 0.81401
+wandb:        train/accuracy 0.99833
+wandb:            train/loss 0.00643
+wandb:        train/macro_f1 0.9983
+wandb: train/macro_precision 0.9983
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_03-k3-repeat-02 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/5ot8iy4w
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_092507-5ot8iy4w/logs
+wandb: setting up run fa1ry2un
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_092608-fa1ry2un
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_03-k3-repeat-03
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/fa1ry2un
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading config.yaml
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▃▆▇▇▇▇███████████████████████
+wandb:            train/loss █▆▃▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▄▇▇▇▇▇███████████████████████
+wandb: train/macro_precision ▁▄▇▇▇▇▇███████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.89993
+wandb:             test/loss 0.94382
+wandb:         test/macro_f1 0.89082
+wandb:  test/macro_precision 0.89075
+wandb:     test/macro_recall 0.89153
+wandb:        train/accuracy 0.99974
+wandb:            train/loss 0.00102
+wandb:        train/macro_f1 0.99971
+wandb: train/macro_precision 0.99971
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_03-k3-repeat-03 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/fa1ry2un
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_092608-fa1ry2un/logs
+wandb: setting up run utimt8ot
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_092710-utimt8ot
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_03-k3-repeat-04
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/utimt8ot
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading wandb-summary.json
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▄▇▇▇▇▇███████████████████████
+wandb:            train/loss █▅▃▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▅▇▇▇▇████████████████████████
+wandb: train/macro_precision ▁▅▇▇▇▇████████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.90469
+wandb:             test/loss 0.93939
+wandb:         test/macro_f1 0.89579
+wandb:  test/macro_precision 0.89588
+wandb:     test/macro_recall 0.89625
+wandb:        train/accuracy 0.99994
+wandb:            train/loss 0.0005
+wandb:        train/macro_f1 0.99994
+wandb: train/macro_precision 0.99994
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_03-k3-repeat-04 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/utimt8ot
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_092710-utimt8ot/logs
+wandb: setting up run h3uuimec
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_092812-h3uuimec
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_03-k3-repeat-05
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/h3uuimec
+wandb: updating run metadata
+wandb: uploading config.yaml; uploading wandb-summary.json
+wandb: uploading wandb-summary.json
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▂▅▇▇▇▇███████████████▇█████▁▁▁
+wandb:            train/loss █▅▃▂▂▂▂▂▁▁▁▁▁▂▁▁▁▂▁▁▁▂▁▁▁▁▁   
+wandb:        train/macro_f1 ▁▅▇▇▇▇███████████████▇█████▁▁▁
+wandb: train/macro_precision ▁▅▇▇▇▇███████████████▇█████▃▁▁
+wandb:    train/macro_recall ▁▄▇▇▇▇███████████████▇█████▁▁▁
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.06699
+wandb:             test/loss nan
+wandb:         test/macro_f1 0.01256
+wandb:  test/macro_precision 0.0067
+wandb:     test/macro_recall 0.1
+wandb:        train/accuracy 0.06809
+wandb:            train/loss nan
+wandb:        train/macro_f1 0.01275
+wandb: train/macro_precision 0.00681
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_03-k3-repeat-05 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/h3uuimec
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_092812-h3uuimec/logs
+Running hypothesis scripts:  30%|███       | 3/10 [24:06<54:20, 465.85s/script]                                                                                 Running hypothesis scripts:  30%|███       | 3/10 [24:06<54:20, 465.85s/script]Run-Metriken pro Wiederholung:
+ repeat_idx  seed model_variant model_name  train_accuracy  train_macro_precision  train_macro_recall  train_macro_f1  train_loss  val_accuracy  val_macro_precision  val_macro_recall  val_macro_f1  val_loss  test_accuracy  test_macro_precision  test_macro_recall  test_macro_f1  test_loss
+          1    42            k3 Kernel3CNN        0.996815               0.996638            0.996689        0.996664    0.012718      0.907167             0.901039          0.901325      0.900985  0.653988       0.893900              0.881009           0.886477       0.883332   0.817608
+          2    43            k3 Kernel3CNN        0.998332               0.998299            0.998303        0.998301    0.006434      0.844778             0.870308          0.837423      0.838310  1.785972       0.825791              0.843089           0.814009       0.811590   1.958389
+          3    44            k3 Kernel3CNN        0.999742               0.999707            0.999712        0.999710    0.001021      0.916041             0.913446          0.909977      0.911618  0.730086       0.899931              0.890747           0.891530       0.890819   0.943817
+          4    45            k3 Kernel3CNN        0.999939               0.999937            0.999937        0.999937    0.000496      0.913447             0.906803          0.907536      0.907072  0.799589       0.904694              0.895878           0.896250       0.895795   0.939391
+          5    46            k3 Kernel3CNN        0.068085               0.006809            0.100000        0.012749         NaN      0.062662             0.006266          0.100000      0.011793       NaN       0.066994              0.006699           0.100000       0.012558        NaN
+
+Aggregierte Kennzahlen pro Modell:
+              train_loss         train_accuracy         train_macro_precision         train_macro_recall         train_macro_f1         val_loss         val_accuracy         val_macro_precision         val_macro_recall         val_macro_f1         test_loss         test_accuracy         test_macro_precision         test_macro_recall         test_macro_f1        
+                    mean     std           mean     std                  mean     std               mean     std           mean     std     mean     std         mean     std                mean     std             mean     std         mean     std      mean     std          mean     std                 mean     std              mean     std          mean     std
+model_variant                                                                                                                                                                                                                                                                                                                                                               
+k3                0.0052  0.0057         0.8126  0.4162                0.8003  0.4436             0.8189  0.4019         0.8015  0.4409   0.9924  0.5324       0.7288  0.3736              0.7196  0.3991           0.7313  0.3542        0.714  0.3936    1.1648  0.5323        0.7183  0.3655               0.7035  0.3901            0.7177  0.3469        0.6988  0.3852
+
+CSV gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_03_runs.csv
+JSON gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_03_summary.json
+Running Hypothese_04.py...
+wandb: setting up run eey41r80
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_092918-eey41r80
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_04-pool-late-repeat-01
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/eey41r80
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 27-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▇▇▇█████████████████████████
+wandb:            train/loss █▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▇▇▇█████████████████████████
+wandb: train/macro_precision ▁▅▆▇▇▇████████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.90953
+wandb:             test/loss 0.86842
+wandb:         test/macro_f1 0.90104
+wandb:  test/macro_precision 0.902
+wandb:     test/macro_recall 0.90051
+wandb:        train/accuracy 0.99994
+wandb:            train/loss 0.00026
+wandb:        train/macro_f1 0.99994
+wandb: train/macro_precision 0.99994
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_04-pool-late-repeat-01 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/eey41r80
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_092918-eey41r80/logs
+wandb: setting up run dgtbn8i7
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_093152-dgtbn8i7
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_04-pool-late-repeat-02
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/dgtbn8i7
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 27-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▇▇▇███▇█████████████████████
+wandb:            train/loss █▃▂▂▂▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▇▇▇█████████████████████████
+wandb: train/macro_precision ▁▆▇▇▇▇██▇█████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.91549
+wandb:             test/loss 0.82469
+wandb:         test/macro_f1 0.90778
+wandb:  test/macro_precision 0.90738
+wandb:     test/macro_recall 0.90861
+wandb:        train/accuracy 0.99998
+wandb:            train/loss 8e-05
+wandb:        train/macro_f1 0.99998
+wandb: train/macro_precision 0.99999
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_04-pool-late-repeat-02 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/dgtbn8i7
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_093152-dgtbn8i7/logs
+wandb: setting up run awshh2hj
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_093425-awshh2hj
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_04-pool-late-repeat-03
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/awshh2hj
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading wandb-summary.json
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▇▇▇█████████████████████████
+wandb:            train/loss █▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▇▇▇█████████████████████████
+wandb: train/macro_precision ▁▆▇▇▇▇████████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.905
+wandb:             test/loss 0.96288
+wandb:         test/macro_f1 0.89594
+wandb:  test/macro_precision 0.89573
+wandb:     test/macro_recall 0.89668
+wandb:        train/accuracy 0.99997
+wandb:            train/loss 0.00016
+wandb:        train/macro_f1 0.99996
+wandb: train/macro_precision 0.99996
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_04-pool-late-repeat-03 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/awshh2hj
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_093425-awshh2hj/logs
+wandb: setting up run ge48uuno
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_093659-ge48uuno
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_04-pool-late-repeat-04
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/ge48uuno
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading config.yaml
+wandb: uploading history steps 27-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▇▇▇█████████████████████████
+wandb:            train/loss █▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▇▇▇█████████████████████████
+wandb: train/macro_precision ▁▅▆▇▇▇████████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.91284
+wandb:             test/loss 0.83129
+wandb:         test/macro_f1 0.90417
+wandb:  test/macro_precision 0.90351
+wandb:     test/macro_recall 0.9053
+wandb:        train/accuracy 0.99994
+wandb:            train/loss 0.00023
+wandb:        train/macro_f1 0.99994
+wandb: train/macro_precision 0.99994
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_04-pool-late-repeat-04 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/ge48uuno
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_093659-ge48uuno/logs
+wandb: setting up run 21iyouxi
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_093934-21iyouxi
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_04-pool-late-repeat-05
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/21iyouxi
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading config.yaml
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▇▇▇█████████████████████████
+wandb:            train/loss █▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▇▇▇█████████████████████████
+wandb: train/macro_precision ▁▆▆▇▇▇████████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.90923
+wandb:             test/loss 0.86667
+wandb:         test/macro_f1 0.90081
+wandb:  test/macro_precision 0.90108
+wandb:     test/macro_recall 0.90072
+wandb:        train/accuracy 0.99994
+wandb:            train/loss 0.00023
+wandb:        train/macro_f1 0.99994
+wandb: train/macro_precision 0.99994
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_04-pool-late-repeat-05 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/21iyouxi
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_093934-21iyouxi/logs
+Running hypothesis scripts:  40%|████      | 4/10 [36:59<58:42, 587.16s/script]                                                                               Running hypothesis scripts:  40%|████      | 4/10 [36:59<58:42, 587.16s/script]Run-Metriken pro Wiederholung:
+ repeat_idx  seed model_variant  model_name  train_accuracy  train_macro_precision  train_macro_recall  train_macro_f1  train_loss  val_accuracy  val_macro_precision  val_macro_recall  val_macro_f1  val_loss  test_accuracy  test_macro_precision  test_macro_recall  test_macro_f1  test_loss
+          1    42     pool-late PoolLateCNN        0.999939               0.999937            0.999937        0.999937    0.000259      0.922867             0.920943          0.914809      0.917640  0.666555       0.909534              0.902001           0.900509       0.901035   0.868422
+          2    43     pool-late PoolLateCNN        0.999985               0.999985            0.999976        0.999981    0.000082      0.922184             0.916957          0.915134      0.915956  0.633300       0.915489              0.907379           0.908609       0.907776   0.824686
+          3    44     pool-late PoolLateCNN        0.999970               0.999961            0.999961        0.999961    0.000161      0.923276             0.919717          0.918139      0.918847  0.746857       0.905002              0.895725           0.896684       0.895935   0.962879
+          4    45     pool-late PoolLateCNN        0.999939               0.999937            0.999937        0.999937    0.000232      0.918498             0.910464          0.913296      0.911831  0.753562       0.912838              0.903510           0.905296       0.904174   0.831293
+          5    46     pool-late PoolLateCNN        0.999939               0.999937            0.999937        0.999937    0.000234      0.920137             0.915000          0.912863      0.913870  0.726219       0.909227              0.901080           0.900719       0.900812   0.866675
+
+Aggregierte Kennzahlen pro Modell:
+              train_loss         train_accuracy      train_macro_precision      train_macro_recall      train_macro_f1      val_loss         val_accuracy        val_macro_precision         val_macro_recall         val_macro_f1         test_loss         test_accuracy        test_macro_precision         test_macro_recall         test_macro_f1        
+                    mean     std           mean  std                  mean  std               mean  std           mean  std     mean     std         mean    std                mean     std             mean     std         mean     std      mean     std          mean    std                 mean     std              mean     std          mean     std
+model_variant                                                                                                                                                                                                                                                                                                                                                 
+pool-late         0.0002  0.0001            1.0  0.0                   1.0  0.0             0.9999  0.0            1.0  0.0   0.7053  0.0529       0.9214  0.002              0.9166  0.0042           0.9148  0.0021       0.9156  0.0028    0.8708  0.0552        0.9104  0.004               0.9019  0.0042            0.9024  0.0046        0.9019  0.0044
+
+CSV gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_04_runs.csv
+JSON gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_04_summary.json
+Running Hypothese_05.py...
+wandb: setting up run 30cgldou
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_094211-30cgldou
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_05-dropout-repeat-01
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/30cgldou
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 29-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▇▇▇▇▇███████████████████████
+wandb:            train/loss █▃▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▇▇▇▇████████████████████████
+wandb: train/macro_precision ▁▅▇▇▇▇▇▇██████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.92394
+wandb:             test/loss 0.51011
+wandb:         test/macro_f1 0.91723
+wandb:  test/macro_precision 0.91717
+wandb:     test/macro_recall 0.91754
+wandb:        train/accuracy 0.99521
+wandb:            train/loss 0.0157
+wandb:        train/macro_f1 0.9949
+wandb: train/macro_precision 0.9949
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_05-dropout-repeat-01 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/30cgldou
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_094211-30cgldou/logs
+wandb: setting up run o6bwpofl
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_094317-o6bwpofl
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_05-dropout-repeat-02
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/o6bwpofl
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 29-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▅▇▇▇▇▇███████████████████████
+wandb:            train/loss █▄▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▇▇▇▇████████████████████████
+wandb: train/macro_precision ▁▅▇▇▇▇▇███████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.92121
+wandb:             test/loss 0.50116
+wandb:         test/macro_f1 0.91409
+wandb:  test/macro_precision 0.91382
+wandb:     test/macro_recall 0.91492
+wandb:        train/accuracy 0.99142
+wandb:            train/loss 0.0288
+wandb:        train/macro_f1 0.99111
+wandb: train/macro_precision 0.99106
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_05-dropout-repeat-02 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/o6bwpofl
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_094317-o6bwpofl/logs
+wandb: setting up run ha6m5i0k
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_094424-ha6m5i0k
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_05-dropout-repeat-03
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/ha6m5i0k
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 29-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▅▇▇▇▇▇███████████████████████
+wandb:            train/loss █▄▃▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▅▇▇▇▇████████████████████████
+wandb: train/macro_precision ▁▅▇▇▇▇▇███████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.92117
+wandb:             test/loss 0.55134
+wandb:         test/macro_f1 0.91396
+wandb:  test/macro_precision 0.91381
+wandb:     test/macro_recall 0.91447
+wandb:        train/accuracy 0.99504
+wandb:            train/loss 0.01716
+wandb:        train/macro_f1 0.99453
+wandb: train/macro_precision 0.99464
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_05-dropout-repeat-03 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/ha6m5i0k
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_094424-ha6m5i0k/logs
+wandb: setting up run 0ejihtah
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_094530-0ejihtah
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_05-dropout-repeat-04
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/0ejihtah
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 29-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▅▇▇▇▇▇███████████████████████
+wandb:            train/loss █▄▃▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▇▇▇▇▇███████████████████████
+wandb: train/macro_precision ▁▅▇▇▇▇▇▇██████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.92436
+wandb:             test/loss 0.55638
+wandb:         test/macro_f1 0.91824
+wandb:  test/macro_precision 0.92007
+wandb:     test/macro_recall 0.91691
+wandb:        train/accuracy 0.99495
+wandb:            train/loss 0.01674
+wandb:        train/macro_f1 0.99452
+wandb: train/macro_precision 0.99455
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_05-dropout-repeat-04 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/0ejihtah
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_094530-0ejihtah/logs
+wandb: setting up run pywsgi72
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_094636-pywsgi72
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_05-dropout-repeat-05
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/pywsgi72
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading wandb-summary.json
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▇▇▇▇▇███████████████████████
+wandb:            train/loss █▄▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▇▇▇▇████████████████████████
+wandb: train/macro_precision ▁▅▇▇▇▇▇███████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.91779
+wandb:             test/loss 0.42975
+wandb:         test/macro_f1 0.91083
+wandb:  test/macro_precision 0.91288
+wandb:     test/macro_recall 0.90943
+wandb:        train/accuracy 0.96936
+wandb:            train/loss 0.13102
+wandb:        train/macro_f1 0.96826
+wandb: train/macro_precision 0.96866
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_05-dropout-repeat-05 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/pywsgi72
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_094636-pywsgi72/logs
+Running hypothesis scripts:  50%|█████     | 5/10 [42:34<41:20, 496.06s/script]                                                                               Running hypothesis scripts:  50%|█████     | 5/10 [42:34<41:20, 496.06s/script]Run-Metriken pro Wiederholung:
+ repeat_idx  seed model_variant model_name  train_accuracy  train_macro_precision  train_macro_recall  train_macro_f1  train_loss  val_accuracy  val_macro_precision  val_macro_recall  val_macro_f1  val_loss  test_accuracy  test_macro_precision  test_macro_recall  test_macro_f1  test_loss
+          1    42   dropout-0.3 DropoutCNN        0.995207               0.994902            0.994904        0.994903    0.015701      0.932833             0.931362          0.927047      0.928989  0.428866       0.923940              0.917172           0.917544       0.917225   0.510115
+          2    43   dropout-0.3 DropoutCNN        0.991415               0.991064            0.991165        0.991114    0.028805      0.928874             0.924355          0.922750      0.923389  0.419905       0.921212              0.913823           0.914920       0.914094   0.501155
+          3    44   dropout-0.3 DropoutCNN        0.995040               0.994640            0.994423        0.994531    0.017159      0.932696             0.930634          0.928218      0.929398  0.444891       0.921174              0.913812           0.914473       0.913958   0.551341
+          4    45   dropout-0.3 DropoutCNN        0.994949               0.994547            0.994494        0.994520    0.016737      0.926007             0.922073          0.920019      0.920662  0.526660       0.924362              0.920065           0.916910       0.918242   0.556381
+          5    46   dropout-0.3 DropoutCNN        0.969362               0.968656            0.967884        0.968264    0.131019      0.925870             0.923041          0.917208      0.919971  0.374890       0.917793              0.912879           0.909430       0.910833   0.429747
+
+Aggregierte Kennzahlen pro Modell:
+              train_loss         train_accuracy         train_macro_precision         train_macro_recall         train_macro_f1         val_loss         val_accuracy         val_macro_precision         val_macro_recall         val_macro_f1         test_loss         test_accuracy         test_macro_precision        test_macro_recall         test_macro_f1        
+                    mean     std           mean     std                  mean     std               mean     std           mean     std     mean     std         mean     std                mean     std             mean     std         mean     std      mean     std          mean     std                 mean    std              mean     std          mean     std
+model_variant                                                                                                                                                                                                                                                                                                                                                              
+dropout-0.3       0.0419  0.0501         0.9892  0.0112                0.9888  0.0113             0.9886  0.0117         0.9887  0.0115    0.439  0.0554       0.9293  0.0034              0.9263  0.0044            0.923  0.0046       0.9245  0.0045    0.5097  0.0509        0.9217  0.0026               0.9156  0.003            0.9147  0.0032        0.9149  0.0029
+
+CSV gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_05_runs.csv
+JSON gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_05_summary.json
+Running Hypothese_06.py...
+wandb: setting up run 04t0srn4
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_094747-04t0srn4
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_06-aug-repeat-01
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/04t0srn4
+wandb: updating run metadata
+wandb: uploading wandb-summary.json
+wandb: uploading data
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▅▇▇▇▇▇▇██████████████████████
+wandb:            train/loss █▅▃▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▅▇▇▇▇▇███████████████████████
+wandb: train/macro_precision ▁▅▆▇▇▇▇▇██████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.9365
+wandb:             test/loss 0.28009
+wandb:         test/macro_f1 0.93057
+wandb:  test/macro_precision 0.93104
+wandb:     test/macro_recall 0.93061
+wandb:        train/accuracy 0.97484
+wandb:            train/loss 0.08071
+wandb:        train/macro_f1 0.97355
+wandb: train/macro_precision 0.97383
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_06-aug-repeat-01 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/04t0srn4
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_094747-04t0srn4/logs
+wandb: setting up run 8wrxglnm
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_095013-8wrxglnm
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_06-aug-repeat-02
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/8wrxglnm
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading wandb-summary.json
+wandb: uploading history steps 27-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▅▇▇▇▇▇███████████████████████
+wandb:            train/loss █▄▃▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▅▇▇▇▇▇███████████████████████
+wandb: train/macro_precision ▁▅▇▇▇▇▇███████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.93454
+wandb:             test/loss 0.29255
+wandb:         test/macro_f1 0.92922
+wandb:  test/macro_precision 0.92938
+wandb:     test/macro_recall 0.92991
+wandb:        train/accuracy 0.97353
+wandb:            train/loss 0.08607
+wandb:        train/macro_f1 0.97208
+wandb: train/macro_precision 0.97245
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_06-aug-repeat-02 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/8wrxglnm
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_095013-8wrxglnm/logs
+wandb: setting up run m1ecjr1a
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_095237-m1ecjr1a
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_06-aug-repeat-03
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/m1ecjr1a
+wandb: updating run metadata
+wandb: uploading config.yaml; uploading wandb-summary.json
+wandb: uploading config.yaml
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▅▇▇▇▇▇▇██████████████████████
+wandb:            train/loss █▄▃▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▅▇▇▇▇▇███████████████████████
+wandb: train/macro_precision ▁▅▇▇▇▇▇▇██████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.93612
+wandb:             test/loss 0.30025
+wandb:         test/macro_f1 0.93081
+wandb:  test/macro_precision 0.93136
+wandb:     test/macro_recall 0.93121
+wandb:        train/accuracy 0.9747
+wandb:            train/loss 0.08123
+wandb:        train/macro_f1 0.97331
+wandb: train/macro_precision 0.97365
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_06-aug-repeat-03 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/m1ecjr1a
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_095237-m1ecjr1a/logs
+wandb: setting up run 5abxcmhw
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_095502-5abxcmhw
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_06-aug-repeat-04
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/5abxcmhw
+wandb: updating run metadata
+wandb: uploading config.yaml; uploading wandb-summary.json
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▄▇▇▇▇▇▇██████████████████████
+wandb:            train/loss █▅▃▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▅▇▇▇▇▇███████████████████████
+wandb: train/macro_precision ▁▄▆▇▇▇▇▇██████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.90512
+wandb:             test/loss 0.5186
+wandb:         test/macro_f1 0.89588
+wandb:  test/macro_precision 0.90202
+wandb:     test/macro_recall 0.90465
+wandb:        train/accuracy 0.97573
+wandb:            train/loss 0.0803
+wandb:        train/macro_f1 0.97442
+wandb: train/macro_precision 0.9747
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_06-aug-repeat-04 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/5abxcmhw
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_095502-5abxcmhw/logs
+wandb: setting up run bnfijqck
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_095727-bnfijqck
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_06-aug-repeat-05
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/bnfijqck
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 27-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▅▇▇▇▇▇▇██████████████████████
+wandb:            train/loss █▄▃▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▅▇▇▇▇████████████████████████
+wandb: train/macro_precision ▁▅▆▇▇▇▇▇██████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.93658
+wandb:             test/loss 0.28764
+wandb:         test/macro_f1 0.9312
+wandb:  test/macro_precision 0.93139
+wandb:     test/macro_recall 0.9314
+wandb:        train/accuracy 0.97397
+wandb:            train/loss 0.08319
+wandb:        train/macro_f1 0.97275
+wandb: train/macro_precision 0.97324
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_06-aug-repeat-05 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/bnfijqck
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_095727-bnfijqck/logs
+Running hypothesis scripts:  60%|██████    | 6/10 [54:39<38:15, 573.99s/script]                                                                               Running hypothesis scripts:  60%|██████    | 6/10 [54:39<38:15, 573.99s/script]Run-Metriken pro Wiederholung:
+ repeat_idx  seed model_variant  model_name  train_accuracy  train_macro_precision  train_macro_recall  train_macro_f1  train_loss  val_accuracy  val_macro_precision  val_macro_recall  val_macro_f1  val_loss  test_accuracy  test_macro_precision  test_macro_recall  test_macro_f1  test_loss
+          1    42           aug BaselineCNN        0.974838               0.973831            0.973281        0.973554    0.080705      0.936382             0.935011          0.930204      0.932239  0.301939       0.936501              0.931037           0.930612       0.930567   0.280093
+          2    43           aug BaselineCNN        0.973533               0.972447            0.971715        0.972078    0.086072      0.938976             0.936494          0.935326      0.935421  0.270859       0.934542              0.929383           0.929910       0.929216   0.292551
+          3    44           aug BaselineCNN        0.974701               0.973654            0.972965        0.973306    0.081231      0.943618             0.943813          0.940594      0.942139  0.266435       0.936117              0.931355           0.931214       0.930811   0.300252
+          4    45           aug BaselineCNN        0.975733               0.974697            0.974146        0.974421    0.080301      0.904846             0.899220          0.904823      0.897551  0.441784       0.905117              0.902023           0.904652       0.895880   0.518596
+          5    46           aug BaselineCNN        0.973973               0.973242            0.972262        0.972749    0.083191      0.939522             0.936348          0.934148      0.935098  0.263440       0.936578              0.931391           0.931403       0.931202   0.287643
+
+Aggregierte Kennzahlen pro Modell:
+              train_loss         train_accuracy         train_macro_precision         train_macro_recall         train_macro_f1         val_loss         val_accuracy         val_macro_precision         val_macro_recall        val_macro_f1         test_loss         test_accuracy         test_macro_precision         test_macro_recall         test_macro_f1        
+                    mean     std           mean     std                  mean     std               mean     std           mean     std     mean     std         mean     std                mean     std             mean    std         mean     std      mean     std          mean     std                 mean     std              mean     std          mean     std
+model_variant                                                                                                                                                                                                                                                                                                                                                              
+aug               0.0823  0.0024         0.9746  0.0008                0.9736  0.0008             0.9729  0.0009         0.9732  0.0009   0.3089  0.0759       0.9327  0.0158              0.9302  0.0176            0.929  0.014       0.9285  0.0177    0.3358  0.1024        0.9298  0.0138                0.925  0.0129            0.9256  0.0117        0.9235  0.0155
+
+CSV gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_06_runs.csv
+JSON gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_06_summary.json
+Running Hypothese_07.py...
+wandb: setting up run oxsb9v6q
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_095951-oxsb9v6q
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_07-batchnorm-repeat-01
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/oxsb9v6q
+wandb: updating run metadata
+wandb: uploading history steps 27-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▅▆▆▆▇▇▇▇▇████████████████████
+wandb:            train/loss █▄▃▃▃▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▅▆▆▆▇▇▇▇▇████████████████████
+wandb: train/macro_precision ▁▅▅▆▆▇▇▇▇▇▇███████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.93558
+wandb:             test/loss 0.38373
+wandb:         test/macro_f1 0.93023
+wandb:  test/macro_precision 0.93062
+wandb:     test/macro_recall 0.93012
+wandb:        train/accuracy 0.99994
+wandb:            train/loss 0.00077
+wandb:        train/macro_f1 0.99994
+wandb: train/macro_precision 0.99994
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_07-batchnorm-repeat-01 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/oxsb9v6q
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_095951-oxsb9v6q/logs
+wandb: setting up run mh1in1su
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_100102-mh1in1su
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_07-batchnorm-repeat-02
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/mh1in1su
+wandb: updating run metadata
+wandb: uploading config.yaml; uploading wandb-summary.json
+wandb: uploading wandb-summary.json
+wandb: uploading history steps 27-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▅▆▆▇▇▇▇▇▇███▇▇████▇██████████
+wandb:            train/loss █▄▃▃▃▂▂▂▂▂▂▂▁▃▂▁▁▁▁▃▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▅▆▆▇▇▇▇▇▇███▇▇████▇██████████
+wandb: train/macro_precision ▁▅▆▆▆▇▇▇▇▇█▇█▆▇████▇██████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.93016
+wandb:             test/loss 0.39417
+wandb:         test/macro_f1 0.92353
+wandb:  test/macro_precision 0.92338
+wandb:     test/macro_recall 0.92417
+wandb:        train/accuracy 0.99998
+wandb:            train/loss 0.00085
+wandb:        train/macro_f1 0.99998
+wandb: train/macro_precision 0.99999
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_07-batchnorm-repeat-02 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/mh1in1su
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_100102-mh1in1su/logs
+wandb: setting up run 3x6jifg8
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_100213-3x6jifg8
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_07-batchnorm-repeat-03
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/3x6jifg8
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading config.yaml
+wandb: uploading history steps 27-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▅▆▆▇▇▇▇▇▇██████▆▇████████████
+wandb:            train/loss █▄▃▃▃▂▂▂▂▂▂▁▁▁▁▁▄▂▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▅▆▆▇▇▇▇▇▇██████▆▇████████████
+wandb: train/macro_precision ▁▅▆▆▆▇▇▇▇▇██████▆▇████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.93124
+wandb:             test/loss 0.38887
+wandb:         test/macro_f1 0.92607
+wandb:  test/macro_precision 0.92679
+wandb:     test/macro_recall 0.92548
+wandb:        train/accuracy 0.99997
+wandb:            train/loss 0.0009
+wandb:        train/macro_f1 0.99996
+wandb: train/macro_precision 0.99996
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_07-batchnorm-repeat-03 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/3x6jifg8
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_100213-3x6jifg8/logs
+wandb: setting up run l79k508s
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_100325-l79k508s
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_07-batchnorm-repeat-04
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/l79k508s
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading wandb-summary.json
+wandb: uploading history steps 27-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▅▆▆▇▇▇▇▇▇███▆▇█▆▇████████████
+wandb:            train/loss █▄▃▃▃▂▂▂▂▂▂▁▁▄▂▁▃▂▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▅▆▆▆▇▇▇▇▇███▆▇█▆▇████████████
+wandb: train/macro_precision ▁▅▆▆▆▇▇▇▇▇▇██▆▇█▆▇████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.93174
+wandb:             test/loss 0.39122
+wandb:         test/macro_f1 0.9254
+wandb:  test/macro_precision 0.92568
+wandb:     test/macro_recall 0.92537
+wandb:        train/accuracy 0.99992
+wandb:            train/loss 0.00103
+wandb:        train/macro_f1 0.99992
+wandb: train/macro_precision 0.99992
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_07-batchnorm-repeat-04 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/l79k508s
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_100325-l79k508s/logs
+wandb: setting up run 9mxim612
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_100436-9mxim612
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_07-batchnorm-repeat-05
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/9mxim612
+wandb: updating run metadata
+wandb: uploading history steps 27-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▅▆▆▇▇▇▇▇▇███▆▇▇██████████████
+wandb:            train/loss █▄▃▃▃▂▂▂▂▂▂▁▁▄▃▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▅▆▆▇▇▇▇▇▇███▆▇▇██████████████
+wandb: train/macro_precision ▁▅▆▆▆▇▇▇▇▇███▆▇▇██████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.92978
+wandb:             test/loss 0.40967
+wandb:         test/macro_f1 0.92439
+wandb:  test/macro_precision 0.92826
+wandb:     test/macro_recall 0.92136
+wandb:        train/accuracy 0.99994
+wandb:            train/loss 0.00101
+wandb:        train/macro_f1 0.99994
+wandb: train/macro_precision 0.99994
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_07-batchnorm-repeat-05 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/9mxim612
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_100436-9mxim612/logs
+Running hypothesis scripts:  70%|███████   | 7/10 [1:00:38<25:11, 503.93s/script]                                                                                 Running hypothesis scripts:  70%|███████   | 7/10 [1:00:38<25:11, 503.93s/script]Run-Metriken pro Wiederholung:
+ repeat_idx  seed model_variant   model_name  train_accuracy  train_macro_precision  train_macro_recall  train_macro_f1  train_loss  val_accuracy  val_macro_precision  val_macro_recall  val_macro_f1  val_loss  test_accuracy  test_macro_precision  test_macro_recall  test_macro_f1  test_loss
+          1    42     batchnorm BatchNormCNN        0.999939               0.999937            0.999937        0.999937    0.000772      0.942116             0.941981          0.937042      0.939388  0.355261       0.935579              0.930617           0.930121       0.930229   0.383731
+          2    43     batchnorm BatchNormCNN        0.999985               0.999985            0.999976        0.999981    0.000854      0.939522             0.937071          0.935791      0.936311  0.341794       0.930163              0.923379           0.924172       0.923533   0.394168
+          3    44     batchnorm BatchNormCNN        0.999970               0.999961            0.999961        0.999961    0.000896      0.940205             0.938534          0.936458      0.937469  0.360934       0.931238              0.926790           0.925480       0.926073   0.388873
+          4    45     batchnorm BatchNormCNN        0.999924               0.999918            0.999915        0.999916    0.001031      0.934334             0.929311          0.928480      0.928857  0.381292       0.931738              0.925681           0.925374       0.925396   0.391221
+          5    46     batchnorm BatchNormCNN        0.999939               0.999937            0.999937        0.999937    0.001012      0.933242             0.931950          0.924198      0.927748  0.390399       0.929779              0.928259           0.921361       0.924391   0.409668
+
+Aggregierte Kennzahlen pro Modell:
+              train_loss         train_accuracy      train_macro_precision      train_macro_recall      train_macro_f1      val_loss         val_accuracy         val_macro_precision         val_macro_recall         val_macro_f1         test_loss         test_accuracy         test_macro_precision         test_macro_recall         test_macro_f1        
+                    mean     std           mean  std                  mean  std               mean  std           mean  std     mean     std         mean     std                mean     std             mean     std         mean     std      mean     std          mean     std                 mean     std              mean     std          mean     std
+model_variant                                                                                                                                                                                                                                                                                                                                                   
+batchnorm         0.0009  0.0001            1.0  0.0                0.9999  0.0             0.9999  0.0         0.9999  0.0   0.3659  0.0197       0.9379  0.0039              0.9358  0.0051           0.9324  0.0057        0.934  0.0053    0.3935  0.0098        0.9317  0.0023               0.9269  0.0027            0.9253  0.0032        0.9259  0.0026
+
+CSV gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_07_runs.csv
+JSON gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_07_summary.json
+Running Hypothese_08.py...
+wandb: setting up run 0tqt7q4d
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_100551-0tqt7q4d
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_08-xavier-repeat-01
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/0tqt7q4d
+wandb: updating run metadata
+wandb: uploading config.yaml; uploading wandb-summary.json
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▆▇▇▇████████████████████████
+wandb:            train/loss █▄▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▆▇▇▇████████████████████████
+wandb: train/macro_precision ▁▅▆▆▇▇▇███████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.91891
+wandb:             test/loss 0.74325
+wandb:         test/macro_f1 0.91184
+wandb:  test/macro_precision 0.91228
+wandb:     test/macro_recall 0.91181
+wandb:        train/accuracy 0.99994
+wandb:            train/loss 0.00047
+wandb:        train/macro_f1 0.99994
+wandb: train/macro_precision 0.99994
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_08-xavier-repeat-01 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/0tqt7q4d
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_100551-0tqt7q4d/logs
+wandb: setting up run er0wmtqb
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_100656-er0wmtqb
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_08-he-repeat-01
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/er0wmtqb
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 29-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▆▇▇▇▇▇██████████████████████
+wandb:            train/loss █▃▃▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▆▇▇▇▇▇██████████████████████
+wandb: train/macro_precision ▁▅▆▆▇▇▇▇▇█████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.88449
+wandb:             test/loss 1.24625
+wandb:         test/macro_f1 0.87354
+wandb:  test/macro_precision 0.87439
+wandb:     test/macro_recall 0.87401
+wandb:        train/accuracy 0.99979
+wandb:            train/loss 0.00111
+wandb:        train/macro_f1 0.99977
+wandb: train/macro_precision 0.99976
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_08-he-repeat-01 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/er0wmtqb
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_100656-er0wmtqb/logs
+wandb: setting up run w0fx83f5
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_100803-w0fx83f5
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_08-xavier-repeat-02
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/w0fx83f5
+wandb: uploading history steps 22-28, summary; updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 29-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▆▇▇▇▇███████████████████████
+wandb:            train/loss █▄▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▆▇▇▇▇███████████████████████
+wandb: train/macro_precision ▁▅▆▆▇▇▇███████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.91219
+wandb:             test/loss 0.89804
+wandb:         test/macro_f1 0.90358
+wandb:  test/macro_precision 0.90357
+wandb:     test/macro_recall 0.90452
+wandb:        train/accuracy 0.99998
+wandb:            train/loss 0.00016
+wandb:        train/macro_f1 0.99998
+wandb: train/macro_precision 0.99999
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_08-xavier-repeat-02 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/w0fx83f5
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_100803-w0fx83f5/logs
+wandb: setting up run xjslwlsp
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_100908-xjslwlsp
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_08-he-repeat-02
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/xjslwlsp
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading config.yaml
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▇▇▇▇▇███████████████████████
+wandb:            train/loss █▃▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▇▇▇▇▇███████████████████████
+wandb: train/macro_precision ▁▅▆▇▇▇▇▇▇█████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.89275
+wandb:             test/loss 1.04259
+wandb:         test/macro_f1 0.88331
+wandb:  test/macro_precision 0.88278
+wandb:     test/macro_recall 0.88498
+wandb:        train/accuracy 0.99998
+wandb:            train/loss 0.00018
+wandb:        train/macro_f1 0.99998
+wandb: train/macro_precision 0.99999
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_08-he-repeat-02 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/xjslwlsp
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_100908-xjslwlsp/logs
+wandb: setting up run bt3qxwpd
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_101014-bt3qxwpd
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_08-xavier-repeat-03
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/bt3qxwpd
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading wandb-summary.json
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▅▇▇███████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            train/loss █▃▃▂▂▂▁▁▁▁                    
+wandb:        train/macro_f1 ▅▇▇███████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: train/macro_precision ▆▇▇███████▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    train/macro_recall ▅▇▇▇██████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.06699
+wandb:             test/loss nan
+wandb:         test/macro_f1 0.01256
+wandb:  test/macro_precision 0.0067
+wandb:     test/macro_recall 0.1
+wandb:        train/accuracy 0.06719
+wandb:            train/loss nan
+wandb:        train/macro_f1 0.01259
+wandb: train/macro_precision 0.00672
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_08-xavier-repeat-03 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/bt3qxwpd
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_101014-bt3qxwpd/logs
+wandb: setting up run ezdug65e
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_101118-ezdug65e
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_08-he-repeat-03
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/ezdug65e
+wandb: updating run metadata
+wandb: uploading config.yaml
+wandb: uploading history steps 29-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▆▇▇▇████████████████████████
+wandb:            train/loss █▃▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▆▇▇▇████████████████████████
+wandb: train/macro_precision ▁▅▆▇▇▇▇███████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.90661
+wandb:             test/loss 0.99479
+wandb:         test/macro_f1 0.89815
+wandb:  test/macro_precision 0.89865
+wandb:     test/macro_recall 0.89847
+wandb:        train/accuracy 0.99997
+wandb:            train/loss 0.00022
+wandb:        train/macro_f1 0.99996
+wandb: train/macro_precision 0.99996
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_08-he-repeat-03 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/ezdug65e
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_101118-ezdug65e/logs
+wandb: setting up run vn2kn8sm
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_101224-vn2kn8sm
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_08-xavier-repeat-04
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/vn2kn8sm
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading wandb-summary.json
+wandb: uploading history steps 29-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▆▇▇▇▇███████████████████████
+wandb:            train/loss █▄▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▆▇▇▇▇███████████████████████
+wandb: train/macro_precision ▁▅▆▆▇▇▇███████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.92098
+wandb:             test/loss 0.77292
+wandb:         test/macro_f1 0.91346
+wandb:  test/macro_precision 0.91394
+wandb:     test/macro_recall 0.91343
+wandb:        train/accuracy 0.99994
+wandb:            train/loss 0.00047
+wandb:        train/macro_f1 0.99994
+wandb: train/macro_precision 0.99994
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_08-xavier-repeat-04 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/vn2kn8sm
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_101224-vn2kn8sm/logs
+wandb: setting up run t7549rvy
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_101330-t7549rvy
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_08-he-repeat-04
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/t7549rvy
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading config.yaml
+wandb: uploading history steps 29-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▆▇▇▇████████████████████████
+wandb:            train/loss █▃▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▆▇▇▇████████████████████████
+wandb: train/macro_precision ▁▅▆▇▇▇▇███████████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.91007
+wandb:             test/loss 0.89228
+wandb:         test/macro_f1 0.90186
+wandb:  test/macro_precision 0.90244
+wandb:     test/macro_recall 0.9016
+wandb:        train/accuracy 0.99994
+wandb:            train/loss 0.00043
+wandb:        train/macro_f1 0.99994
+wandb: train/macro_precision 0.99994
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_08-he-repeat-04 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/t7549rvy
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_101330-t7549rvy/logs
+wandb: setting up run zzbvvg9m
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_101436-zzbvvg9m
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_08-xavier-repeat-05
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/zzbvvg9m
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading wandb-summary.json
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▆▆▇▇▇█▇█████▇████████████████
+wandb:            train/loss █▄▃▂▂▂▂▃▂▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▆▆▇▇▇█▇█████▇████████████████
+wandb: train/macro_precision ▁▅▆▆▇▇▇▆▇████▇████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.91526
+wandb:             test/loss 0.82713
+wandb:         test/macro_f1 0.90813
+wandb:  test/macro_precision 0.90937
+wandb:     test/macro_recall 0.90718
+wandb:        train/accuracy 0.99994
+wandb:            train/loss 0.00055
+wandb:        train/macro_f1 0.99994
+wandb: train/macro_precision 0.99994
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_08-xavier-repeat-05 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/zzbvvg9m
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_101436-zzbvvg9m/logs
+wandb: setting up run 0pk21veu
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_101542-0pk21veu
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_08-he-repeat-05
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/0pk21veu
+wandb: uploading history steps 22-29, summary; updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 30-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▅▇▇█████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            train/loss █▃▃▂▂▂▁▁▁▁▁▁                  
+wandb:        train/macro_f1 ▅▇▇█████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: train/macro_precision ▆▇▇█████████▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    train/macro_recall ▅▇▇▇████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.06699
+wandb:             test/loss nan
+wandb:         test/macro_f1 0.01256
+wandb:  test/macro_precision 0.0067
+wandb:     test/macro_recall 0.1
+wandb:        train/accuracy 0.06809
+wandb:            train/loss nan
+wandb:        train/macro_f1 0.01275
+wandb: train/macro_precision 0.00681
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_08-he-repeat-05 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/0pk21veu
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_101542-0pk21veu/logs
+Running hypothesis scripts:  80%|████████  | 8/10 [1:11:37<18:26, 553.27s/script]                                                                                 Running hypothesis scripts:  80%|████████  | 8/10 [1:11:37<18:26, 553.27s/script]Run-Metriken pro Wiederholung:
+ repeat_idx  seed model_variant    model_name  train_accuracy  train_macro_precision  train_macro_recall  train_macro_f1  train_loss  val_accuracy  val_macro_precision  val_macro_recall  val_macro_f1  val_loss  test_accuracy  test_macro_precision  test_macro_recall  test_macro_f1  test_loss
+          1    42            he     HeInitCNN        0.999788               0.999762            0.999772        0.999767    0.001111      0.896792             0.893437          0.887234      0.889717  0.982792       0.884488              0.874387           0.874009       0.873544   1.246251
+          1    42        xavier XavierInitCNN        0.999939               0.999937            0.999937        0.999937    0.000469      0.930512             0.929913          0.923000      0.926264  0.617058       0.918907              0.912283           0.911807       0.911842   0.743252
+          2    43            he     HeInitCNN        0.999985               0.999985            0.999976        0.999981    0.000177      0.904983             0.898663          0.897824      0.898113  0.816831       0.892747              0.882781           0.884978       0.883311   1.042589
+          2    43        xavier XavierInitCNN        0.999985               0.999985            0.999976        0.999981    0.000158      0.919454             0.911805          0.912381      0.911942  0.717655       0.912185              0.903571           0.904518       0.903582   0.898041
+          3    44            he     HeInitCNN        0.999970               0.999961            0.999961        0.999961    0.000225      0.919044             0.916051          0.913502      0.914636  0.840180       0.906615              0.898647           0.898469       0.898155   0.994786
+          3    44        xavier XavierInitCNN        0.067190               0.006719            0.100000        0.012592         NaN      0.070717             0.007072          0.100000      0.013209       NaN       0.066994              0.006699           0.100000       0.012558        NaN
+          4    45            he     HeInitCNN        0.999939               0.999937            0.999937        0.999937    0.000428      0.913720             0.908329          0.907289      0.907767  0.779325       0.910072              0.902439           0.901605       0.901862   0.892279
+          4    45        xavier XavierInitCNN        0.999939               0.999937            0.999937        0.999937    0.000466      0.920819             0.914796          0.915807      0.915231  0.671098       0.920982              0.913936           0.913430       0.913459   0.772917
+          5    46            he     HeInitCNN        0.068085               0.006809            0.100000        0.012749         NaN      0.062662             0.006266          0.100000      0.011793       NaN       0.066994              0.006699           0.100000       0.012558        NaN
+          5    46        xavier XavierInitCNN        0.999939               0.999937            0.999937        0.999937    0.000554      0.922730             0.918940          0.914407      0.916574  0.652483       0.915258              0.909369           0.907181       0.908128   0.827126
+
+Aggregierte Kennzahlen pro Modell:
+              train_loss         train_accuracy         train_macro_precision         train_macro_recall         train_macro_f1         val_loss         val_accuracy         val_macro_precision         val_macro_recall         val_macro_f1         test_loss         test_accuracy         test_macro_precision         test_macro_recall         test_macro_f1        
+                    mean     std           mean     std                  mean     std               mean     std           mean     std     mean     std         mean     std                mean     std             mean     std         mean     std      mean     std          mean     std                 mean     std              mean     std          mean     std
+model_variant                                                                                                                                                                                                                                                                                                                                                               
+he                0.0005  0.0004         0.8136  0.4167                0.8013  0.4441             0.8199  0.4025         0.8025  0.4415   0.8548  0.0889       0.7394  0.3784              0.7245  0.4016           0.7412  0.3586       0.7244  0.3985    1.0440  0.1487        0.7322  0.3720               0.7130  0.3950            0.7318  0.3534        0.7139  0.3922
+xavier            0.0004  0.0002         0.8134  0.4171                0.8013  0.4442             0.8200  0.4025         0.8025  0.4416   0.6646  0.0419       0.7528  0.3813              0.7365  0.4078           0.7531  0.3651       0.7366  0.4044    0.8103  0.0680        0.7469  0.3801               0.7292  0.4039            0.7474  0.3619        0.7299  0.4010
+
+CSV gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_08_runs.csv
+JSON gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_08_summary.json
+Running Hypothese_09.py...
+wandb: setting up run vkh6mlln
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_101650-vkh6mlln
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_09-adam-repeat-01
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/vkh6mlln
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading config.yaml
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▇███▇▆▇▅▆████▅█▅▆▆▆█▆▅█▆██▄▅▇
+wandb:            train/loss █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 █▂▁▁▁▂▂▄▃▃▁▁▁▁▃▁▅▄▆▃▁▄▄▁▃▁▁▇▆▂
+wandb: train/macro_precision █▃▁▁▁▃▃▃▃▃▁▁▁▁▃▁▃▃▃▃▁▃▃▁▃▃▁▃▃▃
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.19587
+wandb:             test/loss 2.23188
+wandb:         test/macro_f1 0.03276
+wandb:  test/macro_precision 0.01959
+wandb:     test/macro_recall 0.1
+wandb:        train/accuracy 0.18851
+wandb:            train/loss 2.23917
+wandb:        train/macro_f1 0.03273
+wandb: train/macro_precision 0.03165
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_09-adam-repeat-01 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/vkh6mlln
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_101650-vkh6mlln/logs
+wandb: setting up run wbk18ur3
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_101758-wbk18ur3
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_09-adam-repeat-02
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/wbk18ur3
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading config.yaml
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁████████▆▆▄██▇█▆██▆███▆▁▅██▇█
+wandb:            train/loss █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 █▁▁▁▁▁▁▁▁▃▅▄▁▁▁▁▃▁▁▂▁▁▁▂▇▃▁▁▃▁
+wandb: train/macro_precision █▁▁▁▁▁▁▁▁▃▃▃▁▁▄▁▃▁▁▃▁▁▁▃▄▃▁▁▄▁
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.19587
+wandb:             test/loss 2.22716
+wandb:         test/macro_f1 0.03276
+wandb:  test/macro_precision 0.01959
+wandb:     test/macro_recall 0.1
+wandb:        train/accuracy 0.18904
+wandb:            train/loss 2.24003
+wandb:        train/macro_f1 0.0318
+wandb: train/macro_precision 0.0189
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_09-adam-repeat-02 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/wbk18ur3
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_101758-wbk18ur3/logs
+wandb: setting up run 6ztpwyyq
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_101906-6ztpwyyq
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_09-adam-repeat-03
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/6ztpwyyq
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 28-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▃██▃▇████▅▄█▅▆█▇▆▇██▅█▅▄██▅▂█
+wandb:            train/loss █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▇█▁▁▇▁▁▁▁▁▄▃▁▃▄▁▂▅▇▁▁▆▁▇▇▁▁▄█▁
+wandb: train/macro_precision █▃▁▁▃▂▁▁▁▁▃▂▁▃▃▁▃▃▃▁▁▃▁▃▃▁▁▃▃▁
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.19587
+wandb:             test/loss 2.22731
+wandb:         test/macro_f1 0.03276
+wandb:  test/macro_precision 0.01959
+wandb:     test/macro_recall 0.1
+wandb:        train/accuracy 0.18965
+wandb:            train/loss 2.23859
+wandb:        train/macro_f1 0.03188
+wandb: train/macro_precision 0.01896
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_09-adam-repeat-03 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/6ztpwyyq
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_101906-6ztpwyyq/logs
+wandb: setting up run 0f5v57bk
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_102014-0f5v57bk
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_09-adam-repeat-04
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/0f5v57bk
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading config.yaml
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▄████▆█▃▇▇▆████▅█▆▁▆▇█▇▅█▆████
+wandb:            train/loss █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 █▁▁▁▁▃▁▅▁▂▄▁▁▁▂▄▁▄▆▄▅▁▃▅▁▂▁▁▁▁
+wandb: train/macro_precision █▁▁▁▁▃▁▃▂▃▃▁▁▁▃▃▁▃▃▃▃▁▃▃▁▂▁▁▁▁
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.19587
+wandb:             test/loss 2.22715
+wandb:         test/macro_f1 0.03276
+wandb:  test/macro_precision 0.01959
+wandb:     test/macro_recall 0.1
+wandb:        train/accuracy 0.18882
+wandb:            train/loss 2.24033
+wandb:        train/macro_f1 0.03177
+wandb: train/macro_precision 0.01888
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_09-adam-repeat-04 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/0f5v57bk
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_102014-0f5v57bk/logs
+wandb: setting up run h1f670nj
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_102122-h1f670nj
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_09-adam-repeat-05
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/h1f670nj
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading wandb-summary.json
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▆██▁████▆█▇██▇▆██▅▆▆▃▂▆▅█▆█▄▇▄
+wandb:            train/loss █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▄▁▁█▁▁▁▁▂▁▂▁▁▂▂▁▁▄▄▅▄█▅▃▁▂▁▆▁▆
+wandb: train/macro_precision █▁▁▃▁▁▁▁▃▁▃▁▁▃▃▁▁▃▃▄▃▃▃▃▁▃▁▃▃▄
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.19587
+wandb:             test/loss 2.22836
+wandb:         test/macro_f1 0.03276
+wandb:  test/macro_precision 0.01959
+wandb:     test/macro_recall 0.1
+wandb:        train/accuracy 0.18762
+wandb:            train/loss 2.24078
+wandb:        train/macro_f1 0.03634
+wandb: train/macro_precision 0.03382
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_09-adam-repeat-05 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/h1f670nj
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_102122-h1f670nj/logs
+Running hypothesis scripts:  90%|█████████ | 9/10 [1:17:22<08:08, 488.01s/script]                                                                                 Running hypothesis scripts:  90%|█████████ | 9/10 [1:17:22<08:08, 488.01s/script]Run-Metriken pro Wiederholung:
+ repeat_idx  seed model_variant  model_name  train_accuracy  train_macro_precision  train_macro_recall  train_macro_f1  train_loss  val_accuracy  val_macro_precision  val_macro_recall  val_macro_f1  val_loss  test_accuracy  test_macro_precision  test_macro_recall  test_macro_f1  test_loss
+          1    42          adam BaselineCNN        0.188512               0.031647            0.099949        0.032728    2.239173      0.192628             0.019263               0.1      0.032303  2.241904       0.195874              0.019587                0.1       0.032758   2.231876
+          2    43          adam BaselineCNN        0.189043               0.018904            0.100000        0.031798    2.240025      0.190717             0.019072               0.1      0.032034  2.233644       0.195874              0.019587                0.1       0.032758   2.227160
+          3    44          adam BaselineCNN        0.189650               0.018965            0.100000        0.031883    2.238592      0.185256             0.018526               0.1      0.031260  2.247575       0.195874              0.019587                0.1       0.032758   2.227306
+          4    45          adam BaselineCNN        0.188816               0.018882            0.100000        0.031765    2.240325      0.192765             0.019276               0.1      0.032322  2.233759       0.195874              0.019587                0.1       0.032758   2.227148
+          5    46          adam BaselineCNN        0.187618               0.033823            0.100090        0.036344    2.240775      0.193857             0.019386               0.1      0.032476  2.232779       0.195874              0.019587                0.1       0.032758   2.228361
+
+Aggregierte Kennzahlen pro Modell:
+              train_loss         train_accuracy         train_macro_precision         train_macro_recall         train_macro_f1        val_loss         val_accuracy         val_macro_precision         val_macro_recall      val_macro_f1         test_loss        test_accuracy      test_macro_precision      test_macro_recall      test_macro_f1     
+                    mean     std           mean     std                  mean     std               mean     std           mean    std     mean     std         mean     std                mean     std             mean  std         mean     std      mean    std          mean  std                 mean  std              mean  std          mean  std
+model_variant                                                                                                                                                                                                                                                                                                                                              
+adam              2.2398  0.0009         0.1887  0.0007                0.0244  0.0076                0.1  0.0001         0.0329  0.002   2.2379  0.0065        0.191  0.0034              0.0191  0.0003              0.1  0.0       0.0321  0.0005    2.2284  0.002        0.1959  0.0               0.0196  0.0               0.1  0.0        0.0328  0.0
+
+CSV gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_09_runs.csv
+JSON gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_09_summary.json
+Running Hypothese_10.py...
+Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to /home/lukas/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth
+
+  0%|          | 0.00/44.7M [00:00<?, ?B/s][A
+ 10%|█         | 4.62M/44.7M [00:00<00:00, 48.2MB/s][A
+ 35%|███▍      | 15.5M/44.7M [00:00<00:00, 86.4MB/s][A
+ 64%|██████▎   | 28.4M/44.7M [00:00<00:00, 108MB/s] [A
+ 95%|█████████▍| 42.2M/44.7M [00:00<00:00, 123MB/s][A100%|██████████| 44.7M/44.7M [00:00<00:00, 112MB/s]
+wandb: setting up run h0zzoljq
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_102234-h0zzoljq
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_10-transfer-learning-repeat-01
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/h0zzoljq
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading wandb-summary.json
+wandb: uploading history steps 30-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▄▅▆▆▇▇▇▇▇▇▇▇▇████████████████
+wandb:            train/loss █▅▄▃▃▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▄▅▆▆▇▇▇▇▇▇▇▇▇████████████████
+wandb: train/macro_precision ▁▄▅▆▆▇▇▇▇▇▇▇▇▇████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.56327
+wandb:             test/loss 1.28458
+wandb:         test/macro_f1 0.56048
+wandb:  test/macro_precision 0.66664
+wandb:     test/macro_recall 0.56018
+wandb:        train/accuracy 0.63746
+wandb:            train/loss 1.09505
+wandb:        train/macro_f1 0.62233
+wandb: train/macro_precision 0.63823
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_10-transfer-learning-repeat-01 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/h0zzoljq
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_102234-h0zzoljq/logs
+wandb: setting up run d697jh33
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_103318-d697jh33
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_10-transfer-learning-repeat-02
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/d697jh33
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading config.yaml
+wandb: uploading history steps 30-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▄▅▆▆▆▇▇▇▇▇▇▇▇▇███████████████
+wandb:            train/loss █▅▄▃▃▃▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▅▅▆▆▇▇▇▇▇▇▇▇▇▇███████████████
+wandb: train/macro_precision ▁▅▆▆▆▇▇▇▇▇▇▇▇▇▇███████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.48517
+wandb:             test/loss 1.67303
+wandb:         test/macro_f1 0.44406
+wandb:  test/macro_precision 0.74119
+wandb:     test/macro_recall 0.44303
+wandb:        train/accuracy 0.64174
+wandb:            train/loss 1.08914
+wandb:        train/macro_f1 0.62662
+wandb: train/macro_precision 0.64198
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_10-transfer-learning-repeat-02 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/d697jh33
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_103318-d697jh33/logs
+wandb: setting up run yh551gdr
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_104402-yh551gdr
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_10-transfer-learning-repeat-03
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/yh551gdr
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 30-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▅▆▆▆▆▇▇▇▇▇▇▇▇████████████████
+wandb:            train/loss █▅▄▃▃▃▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▅▆▆▆▇▇▇▇▇▇▇▇▇████████████████
+wandb: train/macro_precision ▁▅▅▆▆▇▇▇▇▇▇▇▇▇████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.55658
+wandb:             test/loss 1.29385
+wandb:         test/macro_f1 0.53393
+wandb:  test/macro_precision 0.70147
+wandb:     test/macro_recall 0.49449
+wandb:        train/accuracy 0.63934
+wandb:            train/loss 1.09374
+wandb:        train/macro_f1 0.62431
+wandb: train/macro_precision 0.6407
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_10-transfer-learning-repeat-03 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/yh551gdr
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_104402-yh551gdr/logs
+wandb: setting up run ugar405b
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_105446-ugar405b
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_10-transfer-learning-repeat-04
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/ugar405b
+wandb: updating run metadata
+wandb: uploading wandb-summary.json
+wandb: uploading history steps 30-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▅▅▆▆▇▇▇▇▇▇▇▇▇████████████████
+wandb:            train/loss █▄▄▃▃▃▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▅▆▆▆▇▇▇▇▇▇▇▇▇████████████████
+wandb: train/macro_precision ▁▅▆▆▆▆▇▇▇▇▇▇▇▇████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.50584
+wandb:             test/loss 1.46819
+wandb:         test/macro_f1 0.4681
+wandb:  test/macro_precision 0.72273
+wandb:     test/macro_recall 0.45903
+wandb:        train/accuracy 0.63804
+wandb:            train/loss 1.09575
+wandb:        train/macro_f1 0.62341
+wandb: train/macro_precision 0.6394
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_10-transfer-learning-repeat-04 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/ugar405b
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_105446-ugar405b/logs
+wandb: setting up run h4eyq11i
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /home/lukas/src/FHNW/del_mc/wandb/run-20260513_110530-h4eyq11i
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Hypothese_10-transfer-learning-repeat-05
+wandb: ⭐️ View project at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: 🚀 View run at https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/h4eyq11i
+wandb: updating run metadata
+wandb: uploading wandb-summary.json
+wandb: uploading history steps 30-30, summary
+wandb: 
+wandb: Run history:
+wandb:                 epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         test/accuracy ▁
+wandb:             test/loss ▁
+wandb:         test/macro_f1 ▁
+wandb:  test/macro_precision ▁
+wandb:     test/macro_recall ▁
+wandb:        train/accuracy ▁▄▅▆▆▆▇▇▇▇▇▇▇▇████████████████
+wandb:            train/loss █▅▄▃▃▃▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/macro_f1 ▁▅▅▆▆▆▇▇▇▇▇▇▇▇████████████████
+wandb: train/macro_precision ▁▅▅▆▆▆▇▇▇▇▇▇▇▇████████████████
+wandb:                    +6 ...
+wandb: 
+wandb: Run summary:
+wandb:                 epoch 30
+wandb:         test/accuracy 0.48394
+wandb:             test/loss 1.60788
+wandb:         test/macro_f1 0.45153
+wandb:  test/macro_precision 0.7188
+wandb:     test/macro_recall 0.43616
+wandb:        train/accuracy 0.63998
+wandb:            train/loss 1.09387
+wandb:        train/macro_f1 0.62499
+wandb: train/macro_precision 0.64102
+wandb:                    +6 ...
+wandb: 
+wandb: 🚀 View run Hypothese_10-transfer-learning-repeat-05 at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL/runs/h4eyq11i
+wandb: ⭐️ View project at: https://wandb.ai/lukas-breiter-fachhochschule-nordwestschweiz-fhnw/DEL
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260513_110530-h4eyq11i/logs
+Running hypothesis scripts: 100%|██████████| 10/10 [2:11:04<00:00, 1332.19s/script]Running hypothesis scripts: 100%|██████████| 10/10 [2:11:04<00:00, 786.48s/script] 
+Run-Metriken pro Wiederholung:
+ repeat_idx  seed     model_variant          model_name  train_accuracy  train_macro_precision  train_macro_recall  train_macro_f1  train_loss  val_accuracy  val_macro_precision  val_macro_recall  val_macro_f1  val_loss  test_accuracy  test_macro_precision  test_macro_recall  test_macro_f1  test_loss
+          1    42 transfer-learning TransferLearningCNN        0.637460               0.638230            0.611707        0.622330    1.095050      0.568737             0.660087          0.563137      0.564034  1.283908       0.563268              0.666636           0.560179       0.560485   1.284581
+          2    43 transfer-learning TransferLearningCNN        0.641737               0.641977            0.616257        0.626618    1.089136      0.501843             0.731262          0.460900      0.456287  1.655866       0.485172              0.741186           0.443033       0.444061   1.673028
+          3    44 transfer-learning TransferLearningCNN        0.639341               0.640701            0.613346        0.624309    1.093739      0.558498             0.705564          0.506806      0.542370  1.308702       0.556584              0.701473           0.494490       0.533931   1.293849
+          4    45 transfer-learning TransferLearningCNN        0.638036               0.639401            0.612707        0.623409    1.095749      0.523276             0.725632          0.475637      0.492487  1.443400       0.505839              0.722726           0.459031       0.468099   1.468193
+          5    46 transfer-learning TransferLearningCNN        0.639978               0.641016            0.614254        0.624993    1.093868      0.507440             0.726892          0.468087      0.477892  1.572565       0.483943              0.718800           0.436157       0.451535   1.607877
+
+Aggregierte Kennzahlen pro Modell:
+                  train_loss         train_accuracy         train_macro_precision         train_macro_recall         train_macro_f1         val_loss        val_accuracy         val_macro_precision         val_macro_recall        val_macro_f1         test_loss         test_accuracy         test_macro_precision         test_macro_recall         test_macro_f1        
+                        mean     std           mean     std                  mean     std               mean     std           mean     std     mean    std         mean     std                mean     std             mean    std         mean     std      mean     std          mean     std                 mean     std              mean     std          mean     std
+model_variant                                                                                                                                                                                                                                                                                                                                                                 
+transfer-learning     1.0935  0.0026         0.6393  0.0017                0.6403  0.0015             0.6137  0.0017         0.6243  0.0016   1.4529  0.162        0.532  0.0302              0.7099  0.0295           0.4949  0.042       0.5066  0.0451    1.4655  0.1772         0.519  0.0385               0.7102  0.0281            0.4786  0.0509        0.4916  0.0523
+
+CSV gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_10_runs.csv
+JSON gespeichert unter: /home/lukas/src/FHNW/del_mc/src/hyp_tests/results/hypothesis_10_summary.json

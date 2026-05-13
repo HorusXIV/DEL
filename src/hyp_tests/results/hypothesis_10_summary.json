@@ -1,0 +1,39 @@
+{
+  "config": {
+    "epochs": 30,
+    "repeats": 5,
+    "learning_rate": 0.05,
+    "batch_size": 128,
+    "val_fraction": 0.1,
+    "base_seed": 42,
+    "data_dir": "/home/lukas/src/FHNW/del_mc/data",
+    "wandb_project": "DEL",
+    "wandb_entity": "lukas-breiter-fachhochschule-nordwestschweiz-fhnw",
+    "num_workers": 4,
+    "use_wandb": true,
+    "device": "cuda",
+    "experiment_name": "Hypothese_10",
+    "comparison_model": "TransferLearningCNN",
+    "reference_variant": "baseline",
+    "backbone": "resnet18",
+    "pretrained": true,
+    "freeze_backbone": true,
+    "input_size": 224
+  },
+  "normalization": {
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "input_size": 224
+  },
+  "variants": [
+    "transfer-learning"
+  ]
+}

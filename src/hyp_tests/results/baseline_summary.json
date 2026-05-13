@@ -1,0 +1,64 @@
+{
+  "config": {
+    "epochs": 30,
+    "repeats": 5,
+    "learning_rate": 0.05,
+    "batch_size": 128,
+    "val_fraction": 0.1,
+    "base_seed": 42,
+    "data_dir": "/home/lukas/src/FHNW/del_mc/data",
+    "wandb_project": "DEL",
+    "wandb_entity": "lukas-breiter-fachhochschule-nordwestschweiz-fhnw",
+    "num_workers": 4,
+    "use_wandb": true,
+    "device": "cuda",
+    "experiment_name": "Baseline_HypTests"
+  },
+  "normalization": {
+    "mean": [
+      0.4376821219921112,
+      0.4437697231769562,
+      0.4728044271469116
+    ],
+    "std": [
+      0.19803011417388916,
+      0.20101560652256012,
+      0.19703616201877594
+    ]
+  },
+  "variants": [
+    "baseline"
+  ],
+  "summary_metrics": {
+    "baseline_train_loss_mean": 0.00029840775174605635,
+    "baseline_train_accuracy_mean": 0.8136018928593096,
+    "baseline_train_macro_precision_mean": 0.8013276203715269,
+    "baseline_train_macro_recall_mean": 0.8199623003966986,
+    "baseline_train_macro_f1_mean": 0.8025161951016362,
+    "baseline_val_loss_mean": 0.6627062574034055,
+    "baseline_val_accuracy_mean": 0.7511535836177474,
+    "baseline_val_macro_precision_mean": 0.7372267161599984,
+    "baseline_val_macro_recall_mean": 0.7536020563196223,
+    "baseline_val_macro_f1_mean": 0.7370163439744799,
+    "baseline_test_loss_mean": 0.8061540377885561,
+    "baseline_test_accuracy_mean": 0.7461893054701905,
+    "baseline_test_macro_precision_mean": 0.7278785036246271,
+    "baseline_test_macro_recall_mean": 0.7469049579440712,
+    "baseline_test_macro_f1_mean": 0.7290316275279383,
+    "baseline_train_loss_std": 0.00011155115080045481,
+    "baseline_train_accuracy_std": 0.4167055733187812,
+    "baseline_train_macro_precision_std": 0.444144587106504,
+    "baseline_train_macro_recall_std": 0.40247116157668406,
+    "baseline_train_macro_f1_std": 0.441484344967369,
+    "baseline_val_loss_std": 0.013535141067846446,
+    "baseline_val_accuracy_std": 0.38533944231868367,
+    "baseline_val_macro_precision_std": 0.40868416078411446,
+    "baseline_val_macro_recall_std": 0.365380260003581,
+    "baseline_val_macro_f1_std": 0.40550223072946573,
+    "baseline_test_loss_std": 0.03422595650107193,
+    "baseline_test_accuracy_std": 0.37968560143897606,
+    "baseline_test_macro_precision_std": 0.4031568621131633,
+    "baseline_test_macro_recall_std": 0.3616355837664004,
+    "baseline_test_macro_f1_std": 0.4005262690627221
+  }
+}

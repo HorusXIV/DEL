@@ -1,0 +1,34 @@
+{
+  "config": {
+    "epochs": 30,
+    "repeats": 5,
+    "learning_rate": 0.05,
+    "batch_size": 128,
+    "val_fraction": 0.1,
+    "base_seed": 42,
+    "data_dir": "/home/lukas/src/FHNW/del_mc/data",
+    "wandb_project": "DEL",
+    "wandb_entity": "lukas-breiter-fachhochschule-nordwestschweiz-fhnw",
+    "num_workers": 4,
+    "use_wandb": true,
+    "device": "cuda",
+    "experiment_name": "Hypothese_04",
+    "comparison_model": "PoolLateCNN",
+    "reference_variant": "baseline"
+  },
+  "normalization": {
+    "mean": [
+      0.4376821219921112,
+      0.4437697231769562,
+      0.4728044271469116
+    ],
+    "std": [
+      0.19803011417388916,
+      0.20101560652256012,
+      0.19703616201877594
+    ]
+  },
+  "variants": [
+    "pool-late"
+  ]
+}
