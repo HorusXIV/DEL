@@ -42,7 +42,7 @@ METRIC_COLUMNS = [
 @dataclass(frozen=True)
 class SharedExperimentSettings:
     epochs: int = 30
-    repeats: int = 5
+    repeats: int = 15
     learning_rate: float = 5e-2
     batch_size: int = 128
     val_fraction: float = 0.1
