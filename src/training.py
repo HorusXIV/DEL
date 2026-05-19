@@ -404,6 +404,7 @@ def run_baseline(
     train_loader: DataLoader | None = None,
     val_loader: DataLoader | None = None,
     test_loader: DataLoader | None = None,
+    extra_wandb_config: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     return run_model(
         model_factory=BaselineCNN,
@@ -413,4 +414,5 @@ def run_baseline(
         train_loader=train_loader,
         val_loader=val_loader,
         test_loader=test_loader,
+        extra_wandb_config=extra_wandb_config,
     )
