@@ -3,7 +3,7 @@ from __future__ import annotations
 import torch.nn as nn
 from torchvision.models import ResNet18_Weights, resnet18
 
-
+# Model for Baseline
 class BaselineCNN(nn.Module):
     """
     A simple CNN architecture for SVHN classification.
@@ -35,7 +35,7 @@ class BaselineCNN(nn.Module):
         x = self.features(x)
         return self.classifier(x)
 
-
+# Model for Hypothese 01
 class DeepCNN(nn.Module):
     """
     A moderately deeper CNN for SVHN classification.
@@ -70,7 +70,7 @@ class DeepCNN(nn.Module):
         x = self.features(x)
         return self.classifier(x)
 
-
+# Model for Hypothese 02
 class WideCNN(nn.Module):
     """
     A wider CNN for SVHN classification.
@@ -103,7 +103,7 @@ class WideCNN(nn.Module):
         x = self.features(x)
         return self.classifier(x)
 
-
+# Model for Hypothese 03
 class Kernel3CNN(nn.Module):
     """
     A baseline-width/depth CNN that uses 3x3 kernels instead of 5x5.
@@ -136,7 +136,7 @@ class Kernel3CNN(nn.Module):
         x = self.features(x)
         return self.classifier(x)
 
-
+# Model for Hypothese 04
 class PoolLateCNN(nn.Module):
     """
     A CNN that delays pooling to preserve spatial detail longer.
@@ -168,7 +168,7 @@ class PoolLateCNN(nn.Module):
         x = self.features(x)
         return self.classifier(x)
 
-
+# Model for Hypothese 05
 class DropoutCNN(nn.Module):
     """
     A baseline CNN with dropout in the classifier head.
@@ -203,7 +203,7 @@ class DropoutCNN(nn.Module):
         x = self.features(x)
         return self.classifier(x)
 
-
+# Model for Hypothese 07
 class BatchNormCNN(nn.Module):
     """
     A baseline CNN with Batch Normalization after each convolution.
@@ -240,6 +240,7 @@ class BatchNormCNN(nn.Module):
         return self.classifier(x)
 
 
+# Funcions for for Hypothese 09
 def _apply_xavier_initialization(module: nn.Module) -> None:
     for layer in module.modules():
         if isinstance(layer, (nn.Conv2d, nn.Linear)):
@@ -247,7 +248,7 @@ def _apply_xavier_initialization(module: nn.Module) -> None:
             if layer.bias is not None:
                 nn.init.zeros_(layer.bias)
 
-
+# Funcions for for Hypothese 09
 def _apply_he_initialization(module: nn.Module) -> None:
     for layer in module.modules():
         if isinstance(layer, (nn.Conv2d, nn.Linear)):
@@ -255,7 +256,7 @@ def _apply_he_initialization(module: nn.Module) -> None:
             if layer.bias is not None:
                 nn.init.zeros_(layer.bias)
 
-
+# Model A for Hypothese 09
 class XavierInitCNN(BaselineCNN):
     """
     A baseline CNN with Xavier-initialized convolution and linear layers.
@@ -265,7 +266,7 @@ class XavierInitCNN(BaselineCNN):
         super().__init__(num_classes=num_classes)
         _apply_xavier_initialization(self)
 
-
+# Model B for Hypothese 09
 class HeInitCNN(BaselineCNN):
     """
     A baseline CNN with He-initialized convolution and linear layers.
@@ -275,7 +276,7 @@ class HeInitCNN(BaselineCNN):
         super().__init__(num_classes=num_classes)
         _apply_he_initialization(self)
 
-
+# Model for Hypothese 10
 class TransferLearningCNN(nn.Module):
     """
     A transfer-learning model based on a pretrained ResNet18 backbone.
