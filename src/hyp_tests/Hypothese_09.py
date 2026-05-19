@@ -81,7 +81,8 @@ def run_single_experiment(
 def main() -> None:
     settings = SETTINGS
     # use a good default learning rate for Adam optimizer
-    learning_rate = getattr(settings, "learning_rate", 1e-3)
+    learning_rate = 1e-3
+    
     device = "cuda" if torch.cuda.is_available() else "cpu"
     data_dir = resolve_data_dir(settings.data_dir)
     pin_memory = torch.cuda.is_available()
