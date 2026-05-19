@@ -42,6 +42,7 @@ def run_single_experiment(
     test_loader,
     settings,
     device: str,
+    learning_rate: float,
 ) -> dict[str, float | int | str]:
     run_name = f"Hypothese_09-adam-repeat-{repeat_idx:02d}"
     config = build_standard_run_config(
@@ -58,10 +59,7 @@ def run_single_experiment(
         fit_config=FitConfig(epochs=settings.epochs),
         train_loader=train_loader,
         test_loader=test_loader,
-        optimizer_factory=lambda params: optim.Adam(
-            params,
-            lr=settings.learning_rate,
-        ),
+        optimizer_factory=lambda params: optim.Adam(params, lr=learning_rate),
         extra_wandb_config={
             "experiment_name": "Hypothese_09",
             "hypothesis_id": "09",
@@ -82,8 +80,8 @@ def run_single_experiment(
 
 def main() -> None:
     settings = SETTINGS
-    # adjust learning rate for Adam optimizer (good default)
-    settings.learning_rate = 1e-3
+    # use a good default learning rate for Adam optimizer
+    learning_rate = getattr(settings, "learning_rate", 1e-3)
     device = "cuda" if torch.cuda.is_available() else "cpu"
     data_dir = resolve_data_dir(settings.data_dir)
     pin_memory = torch.cuda.is_available()
@@ -116,7 +114,8 @@ def main() -> None:
                 train_loader=train_loader,
                 test_loader=test_loader,
                 settings=settings,
-                device=device,
+                    device=device,
+                    learning_rate=learning_rate,
             )
         )
 
