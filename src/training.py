@@ -136,6 +136,7 @@ class Trainer:
     - device: The device to run the training on (e.g., "cpu" or "cuda").
     - logger: Optional WandbLogger for logging metrics.
     - num_classes: The number of classes in the classification task.
+    - clip_gradients: Whether to clip gradients before optimizer steps.
 
     Methods:
     - train_one_epoch: Trains the model for one epoch on the given data loader.
@@ -154,6 +155,7 @@ class Trainer:
         device: str,
         logger: WandbLogger | None = None,
         num_classes: int = 10,
+        clip_gradients: bool = True,
     ) -> None:
         self.model = model
         self.criterion = criterion
@@ -161,6 +163,7 @@ class Trainer:
         self.device = device
         self.logger = logger
         self.num_classes = num_classes
+        self.clip_gradients = clip_gradients
 
     def train_one_epoch(
         self,
@@ -271,6 +274,8 @@ class Trainer:
 
                 if is_train:
                     loss.backward()
+                    if self.clip_gradients:
+                        nn.utils.clip_grad_norm_(self.model.parameters(), max_norm=1.0)
                     optimizer.step()
 
                 batch_size = labels.size(0)
