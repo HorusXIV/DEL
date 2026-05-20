@@ -42,6 +42,7 @@ class RunConfig:
     run_name: str | None = None
     device: str | None = None
     tags: list[str] | None = None
+    gradient_clipping: bool = True
 
 
 def _split_train_dataset(
@@ -372,6 +373,7 @@ def run_model(
             device=device,
             logger=logger,
             num_classes=10,
+            clip_gradients=config.gradient_clipping,
         )
         history = trainer.fit(
             train_loader=train_loader,
@@ -420,4 +422,5 @@ def run_baseline(
         val_loader=val_loader,
         test_loader=test_loader,
         extra_wandb_config=extra_wandb_config,
+
     )
