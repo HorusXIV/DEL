@@ -24,6 +24,7 @@ class WandbLogger:
         config: Mapping[str, Any] | None = None,
         enabled: bool = True,
         tags: list[str] | None = None,
+        settings: wandb.Settings | None = None,
     ) -> None:
         self.enabled = enabled
         self.run = None
@@ -35,6 +36,7 @@ class WandbLogger:
                 name=run_name,
                 config=dict(config) if config else None,
                 tags=tags,
+                settings=settings,
             )
 
     def log_metrics(self, metrics: Mapping[str, Any], step: int | None = None) -> None:

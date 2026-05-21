@@ -11,11 +11,11 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, Dataset, Subset
+import wandb
 
 from src.metrics import metrics_from_confusion_matrix
 from src.model import BaselineCNN
 from src.wandb_tools import WandbLogger
-
 
 @dataclass
 class FitConfig:
@@ -43,6 +43,7 @@ class RunConfig:
     device: str | None = None
     tags: list[str] | None = None
     gradient_clipping: bool = True
+    silent: bool = False
 
 
 def _split_train_dataset(
@@ -362,6 +363,7 @@ def run_model(
         config=logger_config,
         enabled=config.use_wandb,
         tags=config.tags,
+        settings=wandb.Settings(silent=config.silent),
     )
     try:
         logger.watch_model(model)
