@@ -1,4 +1,4 @@
-from src.hyp_tests.common import (
+from common import (
     BASELINE_RUNS_CSV_PATH,
     BASELINE_SUMMARY_JSON_PATH,
     RESULTS_DIR,

@@ -1,5 +1,5 @@
-from src.cross_validation import kfold_indices, mean_and_std
-from src.model import (
+from deeplearning.cross_validation import kfold_indices, mean_and_std
+from deeplearning.model import (
     BaselineCNN,
     BatchNormCNN,
     DeepCNN,
@@ -11,8 +11,8 @@ from src.model import (
     WideCNN,
     XavierInitCNN,
 )
-from src.training import RunConfig, FitConfig, Trainer, run_baseline, run_model
-from src.wandb_tools import WandbLogger, WandbRuns
+from deeplearning.training import RunConfig, FitConfig, Trainer, run_baseline, run_model
+from deeplearning.wandb_tools import WandbLogger, WandbRuns
 
 __all__ = [
     "BaselineCNN",

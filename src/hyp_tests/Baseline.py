@@ -1,16 +1,8 @@
 from __future__ import annotations
 
-import sys
-from pathlib import Path
-
 import torch
 
-
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.append(str(PROJECT_ROOT))
-
-from src.hyp_tests.common import (
+from common import (
     METRIC_COLUMNS,
     RESULTS_DIR,
     build_experiment_config,
@@ -26,8 +18,8 @@ from src.hyp_tests.common import (
     save_experiment_outputs,
     set_seed,
 )
-from src.model import BaselineCNN
-from src.training import FitConfig, run_model
+from deeplearning.model import BaselineCNN
+from deeplearning.training import FitConfig, run_model
 
 
 RUNS_CSV_PATH = RESULTS_DIR / "baseline_runs.csv"

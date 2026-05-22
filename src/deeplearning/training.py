@@ -13,9 +13,9 @@ import torch.optim as optim
 from torch.utils.data import DataLoader, Dataset, Subset
 import wandb
 
-from src.metrics import metrics_from_confusion_matrix
-from src.model import BaselineCNN
-from src.wandb_tools import WandbLogger
+from deeplearning.metrics import metrics_from_confusion_matrix
+from deeplearning.model import BaselineCNN
+from deeplearning.wandb_tools import WandbLogger
 
 @dataclass
 class FitConfig:

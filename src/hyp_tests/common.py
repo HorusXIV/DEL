@@ -13,7 +13,7 @@ from scipy.stats import ttest_rel
 from torch.utils.data import DataLoader, Subset
 from torchvision import datasets, transforms
 
-from src.training import RunConfig
+from deeplearning.training import RunConfig
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
