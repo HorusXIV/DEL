@@ -240,7 +240,7 @@ class BatchNormCNN(nn.Module):
         return self.classifier(x)
 
 
-# Funcions for for Hypothese 09
+# Funcions for for Hypothese 08
 def _apply_xavier_initialization(module: nn.Module) -> None:
     for layer in module.modules():
         if isinstance(layer, (nn.Conv2d, nn.Linear)):
@@ -248,7 +248,7 @@ def _apply_xavier_initialization(module: nn.Module) -> None:
             if layer.bias is not None:
                 nn.init.zeros_(layer.bias)
 
-# Funcions for for Hypothese 09
+# Funcions for for Hypothese 08
 def _apply_he_initialization(module: nn.Module) -> None:
     for layer in module.modules():
         if isinstance(layer, (nn.Conv2d, nn.Linear)):
@@ -256,7 +256,7 @@ def _apply_he_initialization(module: nn.Module) -> None:
             if layer.bias is not None:
                 nn.init.zeros_(layer.bias)
 
-# Model A for Hypothese 09
+# Model A for Hypothese 08
 class XavierInitCNN(BaselineCNN):
     """
     A baseline CNN with Xavier-initialized convolution and linear layers.
@@ -266,7 +266,7 @@ class XavierInitCNN(BaselineCNN):
         super().__init__(num_classes=num_classes)
         _apply_xavier_initialization(self)
 
-# Model B for Hypothese 09
+# Model B for Hypothese 08
 class HeInitCNN(BaselineCNN):
     """
     A baseline CNN with He-initialized convolution and linear layers.
