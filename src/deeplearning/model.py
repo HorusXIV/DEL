@@ -314,3 +314,46 @@ class TransferLearningCNN(nn.Module):
 
     def forward(self, x):
         return self.backbone(x)
+    
+class BestModell(nn.Module):
+    """
+    CNN Model with the Factors that performed best in the previous experiments:
+        - Data Augmentation
+        - Batch Normalization
+        - Dropout
+        - Adam
+        - wider Modell
+        - Kernel size 5
+    """
+    
+    def __init__(self, num_classes: int = 10, dropout_p: float = 0.3) -> None:
+        super().__init__()
+
+        self.features = nn.Sequential(
+            nn.Conv2d(3, 32, kernel_size=5, stride=1, padding=2),
+            nn.BatchNorm2d(32),
+            nn.ReLU(inplace=True),
+            nn.Conv2d(32, 64, kernel_size=5, stride=1, padding=2),
+            nn.BatchNorm2d(64),
+            nn.ReLU(inplace=True),
+            nn.MaxPool2d(kernel_size=2),
+            nn.Conv2d(64, 256, kernel_size=5, stride=1, padding=2),
+            nn.BatchNorm2d(256),
+            nn.ReLU(inplace=True),
+            nn.MaxPool2d(kernel_size=2),
+        )
+
+        self.classifier = nn.Sequential(
+            nn.Flatten(),
+            nn.Linear(256 * 8 * 8, 1024),
+            nn.ReLU(inplace=True),
+            nn.Dropout(p=dropout_p),
+            nn.Linear(1024, 192),
+            nn.ReLU(inplace=True),
+            nn.Dropout(p=dropout_p),
+            nn.Linear(192, num_classes),
+        )
+
+    def forward(self, x):
+        x = self.features(x)
+        return self.classifier(x)
